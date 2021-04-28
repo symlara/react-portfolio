@@ -1,8 +1,8 @@
 import React from 'react';
- import Navigation from "../Navigation";
+ import Nav from "../Nav";
  
 function Header(props) {
-    const { currentCategory, setCurrentCategory} = props;
+    const { currentPage, setCurrentPage} = props;
 
     return (
         <header>
@@ -11,10 +11,10 @@ function Header(props) {
             </div>
 
             <div>
-                <Navigation
-                    currentCategory={currentCategory}
-                    setCurrentCategory={setCurrentCategory}
-                ></Navigation>
+                <Nav
+                    currentPage={currentPage}
+                    setCurrentPage={setCurrentPage}
+                ></Nav>
             </div>
         </header>
     );
