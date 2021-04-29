@@ -1,30 +1,51 @@
 import React, { useState } from 'react';
-import './App.css';
+import './index.css';
+
 import Header from "./components/Header";
 import About from "./components/About";
-// import Footer from "./components/Footer";
+import Portfolio from "./components/Portfolio";
+import Contact from "./components/Contact";
+import Resume from "./components/Resume";
+import Footer from "./components/Footer";
 
 
 
 
 function App() {
-  // const [contactSelected, setContactSelected] = useState(false);
-const [currentCategory, setCurrentCategory] = useState(false);
-const [contactSelected, setContactSelected] =  useState(false);
+const [currentPage, setCurrentPage] = useState('About');
+
+const renderPage = () => {
+  switch (currentPage) {
+    // be sure to capitalize strings
+      case "About":
+        return <About />;
+        case "Portfolio":
+          return <Portfolio />;
+          case "Contact":
+            return <Contact />;
+            case "Resume":
+              return <Resume />;
+        default:
+          return null;
+  }
+};
+
+
 
 return (
   <div>
-
-<div>
-    <Header currentCategory={currentCategory} setCurrentCategory={setCurrentCategory}></Header>
+    <div>
+    <Header currentPage={currentPage} setCurrentPage={setCurrentPage}></Header>
     </div>
     
+    <div>
     <main>
-      <About></About>
-    </main>
+    {renderPage()}
+      </main>
+    </div>
 
     <div>
-      {/* <Footer></Footer> */}
+      { <Footer></Footer> }
     </div>
   </div>
   );

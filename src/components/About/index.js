@@ -28,8 +28,6 @@ function About() {
                     </p>
                 </div>
             
-
-            
         </section>
         
     );
