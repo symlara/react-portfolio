@@ -1,26 +1,24 @@
 import React from 'react';
 
-function Nav (props) {
-    const {
-      setCurrentCategory,
-      currentCategory,
-    //   contactSelected,
-      setContactSelected
-    } = props;
+function NavTabs (props) {
+   const tabs = ['About', 'Portfolio', 'Contact', 'Resume'];
 
 
     return (
-        <nav className="flex-row px-1">
-            <ul className="flex-row">
-                <li className="mx-2">
-                    <a href="#about" onClick={() => setContactSelected(false)}>
-                        About Me
-                    </a>
+        <ul className="nav nav-tabs">
+            {tabs.map(tab => (
+                <li className="nav-item" key={tab}>
+                    <a href={'#' + tab.toLowerCase()}
+                    onClick={() => props.setCurrentPage(tab)}
+                    className={
+                        props.currentPage === tab ? 'nav-link active' : 'nav-link'
+                    } 
+              > {tab}
+              </a>
                 </li>
-               
-            </ul>
-        </nav>
+            ))}
+        </ul>
     )
 }
 
-export default Nav;
+export default NavTabs;
