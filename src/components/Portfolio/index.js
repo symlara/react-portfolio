@@ -1,0 +1,104 @@
+import React from 'react';
+import Project from '../Project';
+
+function Portfolio() {
+    const projects = [
+        {
+            name: 'About Allen Stone',
+            description:
+            "This app is a quick source to all things Allen Stone, who is a Pop/Soul Musician. It's a source for Al's music, Instagram photos, and even his social media accounts! Another cool aspect of this app is that the user can interact with other fans by making comments in the comment field on the page and those messages will be saved for the user.",
+            image: 'allen-stone.jpg',
+            technologies: [
+                'Instagram API',
+                'Deezer API',
+                'Tachyons CSS',
+                'JQuery',
+                'JavaScript',
+                'HTML/CSS',
+                'LocalStorage',
+                'Modals'
+            ],
+            github: 'https://github.com/symlara/about-allen-project',
+            deployedlink: 'https://symlara.github.io/about-allen-project/',
+        },
+        {
+            name: 'Alien Generator',
+            description: "This app was created to help to inspire game masters, artists, and players in the endeavor of character creation and design. Each lifeform will be generated with a random backstory, physical description, and list of abilities!",
+            image: 'lifeform_background.jpg',
+            technologies:
+            ['HTML/CSS', 'mySQL', 'Sequalize', 'random-js', 'express', 'ejs'],
+            github: 'https://github.com/symlara/alien-generator',
+            deployedlink: 'http://alien-generator.herokuapp.com/',
+        },
+        {
+            name: 'Blog Site',
+            description: "This is a personal blog site created with MySQl, Sequalize, Express, Express Session, and Handlebars.",
+            image: '112373497-053d4900-8caf-11eb-9127-f38ffec41fe1.png',
+            technologies: ['mySQL', 'Sequalize', 'Express', 'Express Seesion', 'Handlebars', 'Jest', 'Connect Session Sequalize'
+        ],
+        github: 'https://github.com/symlara/blog-site/', 
+        deployedlink: 'https://damp-reef-76694.herokuapp.com/'
+        },
+        {
+            name: 'Note Taker',
+            description: "This application is used to generate notes.",
+            image: 'note-taker.png',
+            technologies: ['Express.js', 'npm uuid package', 'Node.js'],
+            github: 'https://github.com/symlara/Note-Taker',
+            deployedlink: 'https://note-creater.herokuapp.com/notes'
+        },
+        {
+            name: 'Password Generator',
+            description: "This application is used to generate a random password using JavaScript",
+            image: 'password-generator.png',
+            technologies: ['JavaScript', 'HTML', 'CSS'],
+            github: 'https://github.com/symlara/password-assistant',
+            deployedlink: 'https://symlara.github.io/password-assistant/'
+        },
+        {
+            name: "Daily-Planning",
+            description: "This calendar application runs in the browser and is used to allow users to see their events for the day. It's color coded to inform the user of the status of each event.",
+            image: 'daily-planning-calendar.png',
+            technologies: ['HTML', 'CSS', 'JavaScript'],
+            github: 'https://github.com/symlara/daily-planning',
+            deployedlink: 'https://symlara.github.io/daily-planning/'
+        }
+    ];
+
+    return (
+        <section>
+            <div className="center">
+                <h1>Portfolio</h1>
+            </div>
+
+            <div>
+                <ul>
+                    <li>
+                        <Project projects={projects[0]}></Project>
+                    </li>
+                    <li>
+                        <Project projects={projects[1]}></Project>
+                    </li>
+                    
+                    <li> 
+                        <Project projects={projects[2]}></Project>
+                    </li>
+                    
+                    <li>
+                        <Project projects={projects[3]}></Project>
+                    </li>
+
+                    <li>
+                        <Project projects={projects[4]}></Project>
+                    </li>
+
+                    <li>
+                        <Project projects={projects[5]}></Project>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    );
+}
+
+export default Portfolio;
