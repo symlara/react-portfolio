@@ -8,7 +8,7 @@ function About() {
             <h1 className="page-header">About Me</h1>
                 </div>
                 <div className="profile-picture">
-                    <img src={headshot} alt="profile-picture" className="profile-pic"/>
+                    <img src={headshot} alt="profile" className="profile-pic"/>
                 </div>
 
                 <div>
