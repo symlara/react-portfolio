@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './index.css';
-
 import Header from "./components/Header";
 import About from "./components/About";
 import Portfolio from "./components/Portfolio";
@@ -12,18 +11,18 @@ import Footer from "./components/Footer";
 
 
 function App() {
-const [currentPage, setCurrentPage] = useState('About');
+const [currentPage, setCurrentPage] = useState("about");
 
 const renderPage = () => {
   switch (currentPage) {
     // be sure to capitalize strings
-      case "About":
+      case "about":
         return <About />;
-        case "Portfolio":
+        case "portfolio":
           return <Portfolio />;
-          case "Contact":
+          case "contact":
             return <Contact />;
-            case "Resume":
+            case "resume":
               return <Resume />;
         default:
           return null;
