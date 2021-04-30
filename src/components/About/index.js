@@ -1,4 +1,5 @@
 import React from 'react';
+import headshot from '../../assets/images/headshot.jpg';
 
 function About() {
     return (
@@ -6,11 +7,8 @@ function About() {
             <div className="center" id="about">
             <h1 className="page-header">About Me</h1>
                 </div>
-                <div className="center">
-                    <img src={require('../../assets/images/1608236902552.jpg')} 
-                    alt="about-me"
-                    className="photo"
-                    />
+                <div className="profile-picture">
+                    <img src={headshot} alt="profile-picture" className="profile-pic"/>
                 </div>
 
                 <div>

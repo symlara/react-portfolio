@@ -1,3 +1,12 @@
+:root {
+  --spacing-one: calc(1rem * 0.5);
+  --spacing-two: calc(1rem);
+  --spacing-five: calc(2.5rem);
+
+}
+
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -8,6 +17,15 @@ body {
   background-color: #453A49;
   color: white;
 }
+
+#nav {
+  cursor: pointer;
+}
+
+#nav li :hover {
+  background-color: gold;;
+}
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -32,4 +50,20 @@ code {
 .mx-2 {
   margin-right: var(--spacing-two);
   margin-left: var(--spacing-two);
+}
+
+.profile-picture {
+  width: 250px;
+  border-radius: 8px;
+  height: 50%;
+}
+
+.footer {
+	display: flex;
+	flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.github-pic {
+  width: 80px;
 }

@@ -2,6 +2,7 @@ import React from 'react';
 import Project from '../Project';
 
 function Portfolio() {
+
     const projects = [
         {
             name: 'About Allen Stone',
@@ -64,7 +65,7 @@ function Portfolio() {
             deployedlink: 'https://symlara.github.io/daily-planning/'
         }
     ];
-
+    
     return (
         <section>
             <div className="center">

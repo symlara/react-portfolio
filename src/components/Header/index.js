@@ -1,5 +1,5 @@
 import React from 'react';
- import Nav from "../Nav";
+ import NavTabs from "../Nav";
  
 function Header(props) {
     const { currentPage, setCurrentPage} = props;
@@ -11,9 +11,9 @@ function Header(props) {
             </div>
 
             <div>
-                <Nav currentPage={currentPage}
+                <NavTabs currentPage={currentPage}
                 setCurrentPage={setCurrentPage}
-                ></Nav>
+                ></NavTabs>
             </div>
         </header>
     );
