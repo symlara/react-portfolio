@@ -1,23 +1,30 @@
 import React from 'react';
 
 function NavTabs (props) {
-   const tabs = ['About', 'Portfolio', 'Contact', 'Resume'];
+  const { currentPage, setCurrentPage } = props;
 
 
     return (
-        <ul className="nav nav-tabs">
-            {tabs.map(tab => (
-                <li className="nav-item" key={tab}>
-                    <a href={'#' + tab.toLowerCase()}
-                    onClick={() => props.setCurrentPage(tab)}
-                    className={
-                        props.currentPage === tab ? 'nav-link active' : 'nav-link'
-                    } 
-              > {tab}
-              </a>
+        <nav>
+            <ul className="flex-row" id="nav">
+                <li className={currentPage === "about" ? "mx-2 navActive" : "mx-2"}>
+                <span onClick={() => setCurrentPage("about")}>About Me</span>
                 </li>
-            ))}
-        </ul>
+                
+                <li className={currentPage === "portfolio" ? "mx-2 navActive" : "mx-2"}>
+                    <span onClick={() => setCurrentPage("portfolio")}>Portfolio</span>
+                </li>
+
+                <li className={currentPage === "contact" ? "mx-2 navActive" : "mx-2"}>
+                    <span onClick={() => setCurrentPage("contact")}>Contact</span>
+                </li>
+
+                <li className={currentPage === "resume" ? "mx-2 navActive" : "mx-2"}>
+                    <span onClick={() => setCurrentPage("resume")}>Resume</span>
+                </li>
+            </ul>
+        </nav>
+       
     )
 }
 
