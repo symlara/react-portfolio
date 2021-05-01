@@ -20,7 +20,7 @@ function Portfolio() {
                 'Modals'
             ],
             github: 'https://github.com/symlara/about-allen-project',
-            deployedlink: 'https://symlara.github.io/about-allen-project/',
+            deployedLink: 'https://symlara.github.io/about-allen-project/',
         },
         {
             name: 'Alien Generator',
@@ -29,7 +29,7 @@ function Portfolio() {
             technologies:
             ['HTML/CSS', 'mySQL', 'Sequalize', 'random-js', 'express', 'ejs'],
             github: 'https://github.com/symlara/alien-generator',
-            deployedlink: 'http://alien-generator.herokuapp.com/',
+            deployedLink: 'http://alien-generator.herokuapp.com/',
         },
         {
             name: 'Blog Site',
@@ -38,7 +38,7 @@ function Portfolio() {
             technologies: ['mySQL', 'Sequalize', 'Express', 'Express Seesion', 'Handlebars', 'Jest', 'Connect Session Sequalize'
         ],
         github: 'https://github.com/symlara/blog-site/', 
-        deployedlink: 'https://damp-reef-76694.herokuapp.com/'
+        deployedLink: 'https://damp-reef-76694.herokuapp.com/'
         },
         {
             name: 'Note Taker',
@@ -46,7 +46,7 @@ function Portfolio() {
             image: 'note-taker.png',
             technologies: ['Express.js', 'npm uuid package', 'Node.js'],
             github: 'https://github.com/symlara/Note-Taker',
-            deployedlink: 'https://note-creater.herokuapp.com/notes'
+            deployedLink: 'https://note-creater.herokuapp.com/notes'
         },
         {
             name: 'Password Generator',
@@ -54,7 +54,7 @@ function Portfolio() {
             image: 'password-generator.png',
             technologies: ['JavaScript', 'HTML', 'CSS'],
             github: 'https://github.com/symlara/password-assistant',
-            deployedlink: 'https://symlara.github.io/password-assistant/'
+            deployedLink: 'https://symlara.github.io/password-assistant/'
         },
         {
             name: "Daily-Planning",
@@ -62,9 +62,10 @@ function Portfolio() {
             image: 'daily-planning-calendar.png',
             technologies: ['HTML', 'CSS', 'JavaScript'],
             github: 'https://github.com/symlara/daily-planning',
-            deployedlink: 'https://symlara.github.io/daily-planning/'
+            deployedLink: 'https://symlara.github.io/daily-planning/'
         }
-    ];
+	];
+
     
     return (
         <section>
@@ -73,7 +74,7 @@ function Portfolio() {
             </div>
 
             <div>
-                <ul>
+                <ul className="flex-row">
                     <li>
                         <Project projects={projects[0]}></Project>
                     </li>
