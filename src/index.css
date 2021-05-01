@@ -23,7 +23,8 @@ body {
 }
 
 #nav li :hover {
-  background-color: gold;;
+  background-color: grey;
+  border-radius: 6px;
 }
 
 
@@ -34,6 +35,18 @@ code {
 
 #about {
   text-align: center;
+}
+
+.about-me {
+  align-items: wrap;
+  padding-left: 10px;
+}
+
+.profile-picture {
+  width: 250px;
+  border-radius: 8px;
+  height: 50%;
+  padding-left: 10px;
 }
 
 .px-1 {
@@ -52,11 +65,7 @@ code {
   margin-left: var(--spacing-two);
 }
 
-.profile-picture {
-  width: 250px;
-  border-radius: 8px;
-  height: 50%;
-}
+
 
 .footer {
 	display: flex;
@@ -74,4 +83,65 @@ code {
 
 .twitter {
   width: 40px;
+}
+
+
+
+
+.resume a {
+  text-decoration: none;
+  color: black;
+}
+
+/* portfolio page */
+
+#portfolio h1 {
+  text-align: center;
+}
+
+.alien {
+  height: 400px;
+}
+
+.container a {
+  text-decoration: none;
+  color: black;
+}
+
+.container a:hover {
+  background-color: grey;
+  border-radius: 2px;
+}
+
+/* contact page */
+form {
+  width: 40%;
+}
+
+input {
+  font-size: 1rem;
+  padding: 0.25rem;
+  border: 1px solid var(--dark);
+  outline: none;
+  border-radius: 3px;
+  transition: box-shadow 0.2s;
+}
+
+textarea {
+	width: 450px;
+	height: 120px;
+	border: 3px solid #cccccc;
+  padding: 0.25rem;
+  border-radius: 3px;
+}
+
+button {
+	border: 0;
+	border-radius: 8px;
+	color: #fff;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 30px;
+	padding: 5px 10px;	
 }

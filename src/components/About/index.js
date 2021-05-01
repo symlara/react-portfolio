@@ -8,10 +8,10 @@ function About() {
             <h1 className="page-header">About Me</h1>
                 </div>
                 <div className="profile-picture">
-                    <img src={headshot} alt="profile" className="profile-pic"/>
+                    <img src={headshot} alt="profile" />
                 </div>
 
-                <div>
+                <div className="about-me">
                     <p>
                         I am a front end developer looking to continue building my career in Web Development.
                         
