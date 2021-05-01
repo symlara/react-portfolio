@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Card from 'react-bootstrap/Card';
 
+
 function Project(props) {
     const currentProject = useState(props)[0].projects;
 
@@ -8,8 +9,8 @@ function Project(props) {
     const description = currentProject.description;
     const image = currentProject.image;
     const tech = currentProject.technologies;
-    const githubLink = currentProject.githubLink;
-    const liveLink = currentProject.liveLink;
+    const githubLink = currentProject.github
+    const liveLink = currentProject.deployedLink;
 
     // grabs info from array
     function getTechs(techArray) {
@@ -27,20 +28,28 @@ function Project(props) {
     }
 
     return (
-        <Card style={{ width: "80%" }}>
-            <Card.Img src={require(`../../assets/images/${image}`)} className="card-image"/>
-            <div className="center">
-                <Card.Body>
-                    <Card.Title className="card-title">{name}</Card.Title>
-                    <Card.Text className="card-text">{description}</Card.Text>
-                    <Card.Subtitle className="card-subtitle">Usage</Card.Subtitle>
-                    <Card.Text className="card-tech">{getTechs(tech)}</Card.Text>
-    <Card.Link href={liveLink} target="_blank" className="card-link">{name} App</Card.Link>
-    <hr />
-    <Card.Link href={githubLink} target="_blank" className="card-link">{name} GitHub</Card.Link>
-                </Card.Body>
-            </div>
-        </Card>
+        <Card style={{ width: "18rem" }}>
+        <Card.Img
+            variant="top"
+            src={require(`../../assets/images/${image}`)}
+            className="card-image"
+        />
+        <div className="center">
+            <Card.Body>
+                <Card.Title className="card-title">{name}</Card.Title>
+                <Card.Text className="card-text">{description}</Card.Text>
+                <Card.Subtitle className="card-subtitle">Tech Used</Card.Subtitle>
+                <Card.Text className="card-techs">{getTechs(tech)}</Card.Text>
+                <Card.Link href={liveLink} target="_blank" className="card-link">
+                    {name} App
+                </Card.Link>
+                <br></br>
+                <Card.Link href={githubLink} target="_blank" className="card-link">
+                    {name} Github
+                </Card.Link>
+            </Card.Body>
+        </div>
+    </Card>
     );
 }
 
