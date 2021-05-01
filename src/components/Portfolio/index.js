@@ -8,7 +8,7 @@ function Portfolio() {
             name: 'About Allen Stone',
             description:
             "This app is a quick source to all things Allen Stone, who is a Pop/Soul Musician. It's a source for Al's music, Instagram photos, and even his social media accounts! Another cool aspect of this app is that the user can interact with other fans by making comments in the comment field on the page and those messages will be saved for the user.",
-            image: 'allen-stone.jpg',
+            image: 'allenstone.jpg',
             technologies: [
                 'Instagram API',
                 'Deezer API',
@@ -69,37 +69,37 @@ function Portfolio() {
     
     return (
         <section>
-            <div className="center">
-                <h1>Portfolio</h1>
+           <div className="center" id="portfolio">
+                <h1> My Portfolio</h1>
             </div>
 
             <div>
                 <ul className="flex-row">
-                    <li>
-                        <Project projects={projects[0]}></Project>
-                    </li>
-                    <li>
-                        <Project projects={projects[1]}></Project>
-                    </li>
+                 <li>
+                     <Project projects={projects[0]}></Project>
+                   </li>
+        {/* //              <li>
+        //                 <Project projects={projects[1]}></Project>
+        //             </li>
                     
-                    <li> 
-                        <Project projects={projects[2]}></Project>
-                    </li>
+        //             <li> 
+        //                 <Project projects={projects[2]}></Project>
+        //             </li>
                     
-                    <li>
-                        <Project projects={projects[3]}></Project>
-                    </li>
+        //             <li>
+        //                 <Project projects={projects[3]}></Project>
+        //             </li>
 
-                    <li>
-                        <Project projects={projects[4]}></Project>
-                    </li>
+        //             <li>
+        //                 <Project projects={projects[4]}></Project>
+        //             </li>
 
-                    <li>
-                        <Project projects={projects[5]}></Project>
-                    </li>
-                </ul>
-            </div>
-        </section>
+        //             <li>
+        //                 <Project projects={projects[5]}></Project>
+        //             </li>  */}
+               </ul>
+            </div> 
+         </section>
     );
 }
 
