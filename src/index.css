@@ -73,16 +73,29 @@ code {
   justify-content: space-evenly;
 }
 
+/* footer page */
 .github-pic {
   width: 60px;
+}
+
+.github-pic:hover {
+  opacity: 0.5;
 }
 
 .linkedin {
   width: 40px;
 }
 
+.linkedin:hover {
+  opacity: 0.5;
+}
+
 .twitter {
   width: 40px;
+}
+
+.twitter:hover {
+  opacity: 0.5;
 }
 
 
@@ -99,8 +112,28 @@ code {
   text-align: center;
 }
 
+.allen-stone {
+  height: 350px;
+}
+
 .alien {
-  height: 400px;
+  height: 350px;
+}
+
+.blog {
+  height: 340px;
+}
+
+.notes {
+  height: 350px;
+}
+
+.password {
+  height: 340px;
+}
+
+.planning {
+  height: 350px;
 }
 
 .container a {
@@ -112,6 +145,16 @@ code {
   background-color: grey;
   border-radius: 2px;
 }
+
+#overflow {
+  overflow-wrap: break-word;
+}
+
+p {
+  line-height: 20px;
+}
+
+
 
 /* contact page */
 form {
