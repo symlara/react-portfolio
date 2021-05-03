@@ -1,6 +1,5 @@
 {
-  "homepage": "https://symlara.github.io/react-portfolio/",
-  "name": "react-portfolio",
+  "homepage": "http://symlara.github.io/react-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
