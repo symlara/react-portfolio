@@ -9,12 +9,11 @@ import Footer from "./components/Footer";
 
 
 
-
 function App() {
-const [currentPage, setCurrentPage] = useState("about");
+const [currentTab, setCurrentTab] = useState("about");
 
-const renderPage = () => {
-  switch (currentPage) {
+const renderTab = () => {
+  switch (currentTab) {
     // be sure to capitalize strings
       case "about":
         return <About />;
@@ -34,12 +33,13 @@ const renderPage = () => {
 return (
   <div>
     <div>
-    <Header currentPage={currentPage} setCurrentPage={setCurrentPage}></Header>
+    <Header currentTab={currentTab} setCurrentTab={setCurrentTab}></Header>
     </div>
+   
     
     <div>
     <main>
-    {renderPage()}
+    {renderTab()}
       </main>
     </div>
 

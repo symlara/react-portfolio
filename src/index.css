@@ -2,7 +2,7 @@
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
   --spacing-five: calc(2.5rem);
-
+  --primary: #808080;
 }
 
 
@@ -23,9 +23,17 @@ body {
 }
 
 #nav li :hover {
-  background-color: grey;
+  background-color: var(--primary);
   border-radius: 6px;
 }
+
+.navActive {
+  background-color: var(--primary);
+  color: #ffffff;
+  cursor: default;
+}
+
+
 
 
 code {
@@ -40,12 +48,36 @@ code {
 .about-me {
   align-items: wrap;
   padding-left: 10px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .profile-picture {
   width: 250px;
   border-radius: 8px;
   height: 50%;
+  padding-left: 10px;
+}
+
+.header {
+  padding-left: 10px;
+}
+
+#contact-me {
+  text-align: center;
+}
+
+.resume-header {
+ text-align: center; 
+}
+
+.resume a {
+  text-decoration: none;
+  color: black;
+}
+
+.resume {
   padding-left: 10px;
 }
 
@@ -58,6 +90,8 @@ code {
   display: flex;
   flex-wrap: wrap;
 }
+
+
 
 
 .mx-2 {
@@ -101,10 +135,7 @@ code {
 
 
 
-.resume a {
-  text-decoration: none;
-  color: black;
-}
+
 
 /* portfolio page */
 
@@ -142,7 +173,7 @@ code {
 }
 
 .container a:hover {
-  background-color: grey;
+  background-color: var(--primary);
   border-radius: 2px;
 }
 
@@ -187,4 +218,8 @@ button {
 	font-weight: 600;
 	margin-bottom: 30px;
 	padding: 5px 10px;	
+}
+
+.proficiencies h3 {
+  padding-left: 10px; 
 }

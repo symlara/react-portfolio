@@ -78,25 +78,6 @@ function Portfolio() {
                  <li>
                      <Project projects={projects[0]}></Project>
                    </li>
-        {/* //              <li>
-        //                 <Project projects={projects[1]}></Project>
-        //             </li>
-                    
-        //             <li> 
-        //                 <Project projects={projects[2]}></Project>
-        //             </li>
-                    
-        //             <li>
-        //                 <Project projects={projects[3]}></Project>
-        //             </li>
-
-        //             <li>
-        //                 <Project projects={projects[4]}></Project>
-        //             </li>
-
-        //             <li>
-        //                 <Project projects={projects[5]}></Project>
-        //             </li>  */}
                </ul>
             </div> 
          </section>
