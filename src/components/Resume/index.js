@@ -11,16 +11,21 @@ function Resume() {
                 <a href={require("../../assets/files/AS updated resume 21.docx")} download>Download my Resume here</a>
             </div>
             
-            <div>
-                    <h4>Proficiencies</h4>
+            <div className="proficiencies">
+                    <h3> Front-End Proficiencies</h3>
                     <ul>
                         <li>HTML</li>
                         <li>CSS</li>
                         <li>JavaScript</li>
                         <li>jQuery</li>
+                        <li>Bootstrap</li>
                         <li>React</li>
                         <li>Git</li>
                         <li>Responsive UI</li>
+                    </ul>
+                    <br />
+                    <h3>Back-End Proficiencies</h3>
+                    <ul>
                         <li>APIs</li>
                         <li>Node.Js</li>
                         <li>Express</li>
@@ -28,7 +33,16 @@ function Resume() {
                         <li>REST</li>
                         <li>(PWA) Progressive Web Application</li>
                     </ul>
-                    <hr />
+                   <br />
+                       <h3>Dev-Tool Proficiencies</h3>
+                       <ul>
+                       <li>mySQL</li>
+                       <li>Sequalize</li>
+                       <li>noSQL</li>
+                       <li>SQLite</li>
+                       <li>MongoDB</li>
+                       <li>Mongoose</li>
+                   </ul>
             </div>
         </section>
     )
