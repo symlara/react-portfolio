@@ -6,31 +6,9 @@ import alien from "../../assets/images/lifeform_background.jpg";
 import notes from "../../assets/images/note-taker.png";
 import password from "../../assets/images/password-generator.png";
 import planning from "../../assets/images/daily-planning-calendar.png";
+import deepthoughts from '../../assets/images/deep-thoughts.png';
 
 function Project(props) {
-    // const currentProject = useState(props)[0].projects;
-
-    // const name = currentProject.name;
-    // const description = currentProject.description;
-    // const image = currentProject.image;
-    // const tech = currentProject.technologies;
-    // const githubLink = currentProject.github;
-    // const liveLink = currentProject.deployedLink;
-
-    // grabs info from array
-    // function getTechs(techArray) {
-    //     let techList = "";
-
-    //     for (var i = 0; i < techArray.length; i++) {
-    //         if (i === techArray.length - 1) {
-    //             techList += techArray[i];
-    //         }else {
-    //             techList += techArray[i] + ", ";
-    //         }
-    //     }
-
-    //     return techList;
-    // }
 
     return (
 
@@ -155,30 +133,33 @@ function Project(props) {
                     </p>
                 </div>
             </div>
+            <div className="row text-center text-white">
+            <div className="col-lg-2 mx-auto">
+                <h1>Deep Thoughts</h1>
+                <p>This project was built using React and is a full stack MERN application.</p> 
+                <img src={deepthoughts} className="thoughts" alt="deep-thoughts-app" />
+                <h3>Technologies</h3>
+                <ul>
+                    <li>MongoDB</li>
+                    <li>Express.js</li>
+                    <li>React</li>
+                    <li>Node.js</li>
+                    <li>JSX</li>
+                    <li>CSS</li>
+                </ul>
+
+                <p>
+                    <a href="https://github.com/symlara/deep-thoughts" target="_blank" rel="noopener noreferrer">Deep Thuoghts GitHub</a>
+                    <br />
+                    <a href="https://shielded-depths-37761.herokuapp.com" target="_blank" rel="noopener noreferrer">Deep Thoughts App</a>
+                </p>
+            </div>
+
         </div>
 
-    // <Card style={{ width: "18rem" }}>
-    //   <Card.Img
-    //         variant="top"
-    //         src={require(`../../assets/images/${image}`)}
-    //         className="card-image"
-    //     />
-    //     <div className="center">
-    //         <Card.Body>
-    //             <Card.Title className="card-title">{name}</Card.Title>
-    //             <Card.Text className="card-text">{description}</Card.Text>
-    //             <Card.Subtitle className="card-subtitle">Tech Used</Card.Subtitle>
-    //             <Card.Text className="card-techs">{getTechs(tech)}</Card.Text>
-    //             <Card.Link href={liveLink} target="_blank" className="card-link">
-    //                 {name} App
-    //             </Card.Link>
-    //             <br></br>
-    //             <Card.Link href={githubLink} target="_blank" className="card-link">
-    //                 {name} Github
-    //             </Card.Link>
-    //         </Card.Body>
-    //     </div>
-    // </Card>
+        </div>
+
+   
     );
 }
 

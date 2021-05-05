@@ -167,6 +167,10 @@ code {
   height: 350px;
 }
 
+.thoughts {
+  height: 350px;
+}
+
 .container a {
   text-decoration: none;
   color: black;
