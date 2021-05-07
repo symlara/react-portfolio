@@ -3,6 +3,7 @@
   --spacing-two: calc(1rem);
   --spacing-five: calc(2.5rem);
   --primary: #808080;
+  --secondary: #000000;
 }
 
 
@@ -29,8 +30,9 @@ body {
 
 .navActive {
   background-color: var(--primary);
-  color: #ffffff;
+  color: var(--secondary);
   cursor: default;
+  border-radius: 6px;
 }
 
 
@@ -62,11 +64,15 @@ code {
 
 .header {
   padding-left: 10px;
+  text-decoration: none;
+  color: #ffffff;
 }
 
 #contact-me {
   text-align: center;
+
 }
+
 
 .resume-header {
  text-align: center; 
@@ -196,9 +202,22 @@ form {
   width: 40%;
 }
 
+ .name {
+  margin: 10px;
+}
+
+.email {
+  margin: 10px;
+}
+
+.message {
+  margin: 10px;
+}
+
 input {
   font-size: 1rem;
-  padding: 0.25rem;
+  padding: 5px;
+  margin: 10px;
   border: 1px solid var(--dark);
   outline: none;
   border-radius: 3px;
@@ -211,17 +230,19 @@ textarea {
 	border: 3px solid #cccccc;
   padding: 0.25rem;
   border-radius: 3px;
+  margin: 10px;
 }
 
 button {
 	border: 0;
 	border-radius: 8px;
-	color: #fff;
+	color: #000000;
 	cursor: pointer;
 	font-size: 16px;
 	font-weight: 600;
 	margin-bottom: 30px;
-	padding: 5px 10px;	
+  padding: 5px 10px;	
+  margin: 10px;
 }
 
 .proficiencies h3 {
