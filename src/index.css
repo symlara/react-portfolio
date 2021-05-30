@@ -177,6 +177,10 @@ code {
   height: 350px;
 }
 
+.album {
+  height: 350px;
+}
+
 .container a {
   text-decoration: none;
   color: black;

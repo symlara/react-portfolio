@@ -9,10 +9,15 @@ import Footer from "./components/Footer";
 
 
 
+
+
 function App() {
 const [currentTab, setCurrentTab] = useState("about");
 
 const renderTab = () => {
+  
+
+
   switch (currentTab) {
     // be sure to capitalize strings
       case "about":
@@ -46,6 +51,8 @@ return (
     <div>
       { <Footer></Footer> }
     </div>
+
+
   </div>
   );
 }

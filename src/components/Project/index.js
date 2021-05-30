@@ -7,6 +7,7 @@ import notes from "../../assets/images/note-taker.png";
 import password from "../../assets/images/password-generator.png";
 import planning from "../../assets/images/daily-planning-calendar.png";
 import deepthoughts from '../../assets/images/deep-thoughts.png';
+import photoalbum from '../../assets/images/photo-album.png';
 
 function Project(props) {
 
@@ -152,6 +153,27 @@ function Project(props) {
                     <a href="https://github.com/symlara/deep-thoughts" target="_blank" rel="noopener noreferrer">Deep Thuoghts GitHub</a>
                     <br />
                     <a href="https://shielded-depths-37761.herokuapp.com" target="_blank" rel="noopener noreferrer">Deep Thoughts App</a>
+                </p>
+            </div>
+
+            <div className="col-lg-10 mx-auto">
+                <h1>Photo Album</h1>
+                <p>A great resource for local freelance photographers and clients. This 1 app will help photographers generate revenue in 3 ways: Selling prints, Booking clients for sessions and students for lessons. This app is easily accessible by mobile device for the client to purchase photographs and hire local photographers</p>
+                <img src={photoalbum} className="album" alt="photo-album-app" />
+                <h3>Technologies</h3>
+                <ul>
+                    <li>MongoDB</li>
+                    <li>Express.js</li>
+                    <li>React</li>
+                    <li>Node.js</li>
+                    <li>JSX</li>
+                    <li>CSS</li>
+                    <li>React</li>
+                    <li>Mongoose</li>
+                </ul>
+
+                <p>
+                    <a href="https://github.com/jojoford/Project3" target="_blank" rel="noopener noreferrer">Photo Album Github</a>
                 </p>
             </div>
 
