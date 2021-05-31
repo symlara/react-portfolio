@@ -159,7 +159,7 @@ function Project(props) {
             <div className="col-lg-10 mx-auto">
                 <h1>Photo Album</h1>
                 <p>A great resource for local freelance photographers and clients. This 1 app will help photographers generate revenue in 3 ways: Selling prints, Booking clients for sessions and students for lessons. This app is easily accessible by mobile device for the client to purchase photographs and hire local photographers</p>
-                <img src={photoalbum} className="album" alt="photo-album-app" />
+                <img src={photoalbum} className="album" alt="album-app" />
                 <h3>Technologies</h3>
                 <ul>
                     <li>MongoDB</li>
