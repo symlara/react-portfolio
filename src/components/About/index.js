@@ -16,9 +16,9 @@ function About() {
                     <p>
                         I am a front end developer looking to continue building my career in Web Development.
                         
-                        I'm currently ennrolled in a Coding Bootcamp for Vanderbilt University and I have completed multiple projects of
-                        work that I will showcase on the portfolio. The pieces of work that I will show are examples of a range of coding languages,
-                        libraries and concepts that I've learned in a span of 7 months. 
+                        I'm have completed the Coding Bootcamp for Vanderbilt University and I have
+                        work that I will showcase in the portfolio. The work that I will show are examples of a range of coding languages,
+                        libraries,and concepts that I've learned in a span of 10 months. 
                     </p>
                 
                 </div>
