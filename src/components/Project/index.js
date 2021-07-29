@@ -9,6 +9,8 @@ import planning from "../../assets/images/daily-planning-calendar.png";
 import deepthoughts from '../../assets/images/deep-thoughts.png';
 import photoalbum from '../../assets/images/photo-album.png';
 
+
+
 function Project(props) {
 
     return (
@@ -18,7 +20,7 @@ function Project(props) {
                 <div className="col-lg-2 mx-auto">
                     <h1>About Allen Stone</h1>
                         <p id="overflow">This app is a quick source to all things Allen Stone, who is a Pop/Soul Musician. It's a source for Al's music, Instagram photos, and even his social media accounts! Another cool aspect of this app is that the user can interact with other fans by making comments in the comment field on the page and those messages will be saved for the user.</p>
-                        <img src={allen} className="allen-stone" alt="allen stone" />
+                        <img src={allen} className="allen-stone" alt="allen-stone" />
                         <h3>Technologies</h3>
                         <ul>
                         <li>Instagram API</li>
