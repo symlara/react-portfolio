@@ -1,5 +1,5 @@
 import React from 'react';
-import headshot from '../../assets/images/headshot.jpg';
+import headshot from '../../assets/images/Symlar_Aaliyah002.JPG';
 import './about.css';
 
 function About() {

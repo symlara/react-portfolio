@@ -1,3 +1,40 @@
+ /*footer page styles */
+ .footer {
+	display: flex;
+	flex-wrap: wrap;
+  justify-content: space-evenly;
+} 
+
+
+
+.github-pic {
+  width: 60px;
+}
+
+.github-pic:hover {
+  opacity: 0.5;
+}
+
+.linkedin {
+  width: 40px;
+}
+
+.linkedin:hover {
+  opacity: 0.5;
+}
+
+.twitter {
+  width: 40px;
+}
+
+.twitter:hover {
+  opacity: 0.5;
+}
+
+
+
+
+
 @media only screen and (max-width: 320px) {
     .footer  {
        position: absolute;
