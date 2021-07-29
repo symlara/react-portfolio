@@ -3,6 +3,7 @@
   --spacing-two: calc(1rem);
   --spacing-five: calc(2.5rem);
   --primary: #808080;
+  --secondary: #000000;
 }
 
 
@@ -18,6 +19,8 @@ body {
   color: white;
 }
 
+/* nav styles */
+
 #nav {
   cursor: pointer;
 }
@@ -29,10 +32,11 @@ body {
 
 .navActive {
   background-color: var(--primary);
-  color: #ffffff;
+  color: var(--secondary);
   cursor: default;
+  border-radius: 6px;
 }
-
+/* nav styles end */
 
 
 
@@ -40,7 +44,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
+/* about page styles */
 #about {
   text-align: center;
 }
@@ -60,14 +64,18 @@ code {
   padding-left: 10px;
 }
 
+/* about page styles end */
+
+/* header page styles */
 .header {
   padding-left: 10px;
+  text-decoration: none;
+  color: #ffffff;
 }
+/* header page styles end*/
 
-#contact-me {
-  text-align: center;
-}
 
+/* resume page styles */
 .resume-header {
  text-align: center; 
 }
@@ -81,16 +89,9 @@ code {
   padding-left: 10px;
 }
 
-.px-1 {
-  padding-right: var(--spacing-one);
-  padding-left: var(--spacing-one);
+.proficiencies h3 {
+  padding-left: 10px; 
 }
-
-.flex-row {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 
 
 
@@ -99,15 +100,22 @@ code {
   margin-left: var(--spacing-two);
 }
 
+/* resume page styles end */
 
 
+/* nav / portfolio pages */
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* footer page styles */
 .footer {
 	display: flex;
 	flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
-/* footer page */
 .github-pic {
   width: 60px;
 }
@@ -131,7 +139,7 @@ code {
 .twitter:hover {
   opacity: 0.5;
 }
-
+/* footer page styles end */
 
 
 
@@ -167,6 +175,14 @@ code {
   height: 350px;
 }
 
+.thoughts {
+  height: 350px;
+}
+
+.album {
+  height: 350px;
+}
+
 .container a {
   text-decoration: none;
   color: black;
@@ -192,9 +208,26 @@ form {
   width: 40%;
 }
 
+ .name {
+  margin: 10px;
+}
+
+.email {
+  margin: 10px;
+}
+
+.message {
+  margin: 10px;
+}
+
+#contact-me {
+  text-align: center;
+}
+
 input {
   font-size: 1rem;
-  padding: 0.25rem;
+  padding: 5px;
+  margin: 10px;
   border: 1px solid var(--dark);
   outline: none;
   border-radius: 3px;
@@ -207,19 +240,18 @@ textarea {
 	border: 3px solid #cccccc;
   padding: 0.25rem;
   border-radius: 3px;
+  margin: 10px;
 }
 
 button {
 	border: 0;
 	border-radius: 8px;
-	color: #fff;
+	color: #000000;
 	cursor: pointer;
 	font-size: 16px;
 	font-weight: 600;
 	margin-bottom: 30px;
-	padding: 5px 10px;	
+  padding: 5px 10px;	
+  margin: 10px;
 }
 
-.proficiencies h3 {
-  padding-left: 10px; 
-}

@@ -63,6 +63,13 @@ function Portfolio() {
             technologies: ['HTML', 'CSS', 'JavaScript'],
             github: 'https://github.com/symlara/daily-planning',
             deployedLink: 'https://symlara.github.io/daily-planning/'
+        },
+        {
+            name: "Photo Album",
+            description: "A great resource for local freelance photographers and clients. This 1 app will help photographers generate revenue in 3 ways: Selling prints, Booking clients for sessions and students for lessons. This app is easily accessible by mobile device for the client to purchase photographs and hire local photographers",
+            image: 'photo-album.png',
+            technologies: ['React', 'MERN Stack app', 'CSS', 'Javascript', 'JWT', 'MongoDB', 'Mongoose ODM', 'GraphQL ', 'Node.js', 'Express.js'],
+            github: 'https://github.com/jojoford/Project3',
         }
 	];
 

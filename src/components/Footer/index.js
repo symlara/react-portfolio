@@ -2,6 +2,7 @@ import React from 'react';
 import github from '../../assets/images/GitHub_Logo.png';
 import linkedin from '../../assets/images/LI-In-Bug.png';
 import twitter from '../../assets/images/2021 Twitter logo - black.png';
+import './footer.css';
 
 function Footer() {
     return (

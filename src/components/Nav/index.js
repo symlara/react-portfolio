@@ -1,8 +1,10 @@
 import React from 'react';
+import './nav.css';
 
 function Nav (props) {
   const { currentTab, setCurrentTab } = props;
 
+ 
 
   return (
     <nav>

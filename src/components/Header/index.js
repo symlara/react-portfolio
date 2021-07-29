@@ -1,5 +1,6 @@
 import React from 'react';
  import Nav from "../Nav";
+ import './header.css';
  
 function Header(props) {
     const { currentTab, setCurrentTab} = props;
@@ -7,7 +8,7 @@ function Header(props) {
     return (
         <header>
             <div>
-                <h1 className="header">Aaliyah's React Portfolio</h1>
+                <h1><a href="/" className="header">Aaliyah's React Portfolio</a></h1>
             </div>
 
             <div>

@@ -33,24 +33,23 @@ function ContactForm() {
     function handleSubmit(e) {
         e.preventDefault();
         console.log(formState);
+        alert("Your information has been submitted!")
       }
-    // console.log(formState);
-    // JSX
-    // DOM elements
+    
     return (
         <section>
             <h1 id="contact-me">Contact me</h1>
             <form id="contact-form" onSubmit={handleSubmit}>
                 <div>
-                    <label htmlFor="name">Name:</label>
+                    <label htmlFor="name" className="name">Name:</label>
                     <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
                 </div>
                 <div>
-                    <label htmlFor="email">Email address:</label>
+                    <label htmlFor="email" className="email">Email address:</label>
                     <input type="email" name="email" defaultValue={email}  onBlur={handleChange} />
                 </div>
                 <div> 
-                    <label htmlFor="message">Message:</label>
+                    <label htmlFor="message" className="message">Message:</label>
                     <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
                     </div>
 
