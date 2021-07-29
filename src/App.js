@@ -39,20 +39,6 @@ return (
   <div>
     <div>
     <Header currentTab={currentTab} setCurrentTab={setCurrentTab}></Header>
-<<<<<<< HEAD
-    </div>
-   
-    
-    <div>
-    <main>
-    {renderTab()}
-      </main>
-    </div>
-
-    <div>
-      { <Footer></Footer> }
-    </div>
-=======
     </div>
    
     
@@ -67,7 +53,6 @@ return (
     </div>
 
 
->>>>>>> main
   </div>
   );
 }
