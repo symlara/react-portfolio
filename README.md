@@ -13,7 +13,7 @@ This portfolio was built to showcase some of the work I've accomplished in my Co
 * To run this app in your browser on your local machine be sure to first install all dependencies, <u>npm install</u>, onto your machine, then run <i>npm start</i>
 * To push the new updates of this app onto the gh-pages you will need to run <i>npm run deploy</i>.
 
-<img width="1440" alt="portfolio-screenshot" src="https://user-images.githubusercontent.com/40181569/116834601-790f2300-ab84-11eb-9ade-7db20550b820.png">
+<img width="1425" alt="Screen Shot 2021-08-10 at 12 24 36 PM" src="https://user-images.githubusercontent.com/40181569/128906201-74c55cc0-dc98-495d-b217-ebd0899ff7e7.png">
 
 
 <a href="https://symlara.github.io/react-portfolio/" target="_blank" rel="noopener noreferrer">https://symlara.github.io/react-portfolio/</a>
