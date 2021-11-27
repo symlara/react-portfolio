@@ -22,7 +22,6 @@ function Project(props) {
                         <img src={allen} className="allen-stone" alt="allen-stone" />
                         <h3>Technologies</h3>
                         <ul>
-                        <li>Instagram API</li>
                         <li>Deezer API</li>
                         <li>Tachyons CSS</li>
                         <li>jQuery</li>

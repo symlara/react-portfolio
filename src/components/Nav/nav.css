@@ -3,6 +3,10 @@
 #nav {
     cursor: pointer;
   }
+
+  ul {
+    list-style-type: none;
+  }
   
   #nav li :hover {
     background-color: var(--primary);
