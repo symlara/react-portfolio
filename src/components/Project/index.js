@@ -5,7 +5,6 @@ import alien from "../../assets/images/lifeform_background.jpg";
  import blog from "../../assets/images/112373497-053d4900-8caf-11eb-9127-f38ffec41fe1.png";
 import notes from "../../assets/images/note-taker.png";
 import password from "../../assets/images/password-generator.png";
-import planning from "../../assets/images/daily-planning-calendar.png";
 import deepthoughts from '../../assets/images/deep-thoughts.png';
 import photoalbum from '../../assets/images/photo-album.png';
 
@@ -118,23 +117,6 @@ function Project(props) {
                     </p>
                 </div>
 
-                <div className="col-lg-2">
-                    <h1>Daily-Planning</h1>
-                    <p>This calendar application runs in the browser and is used to allow users to see their events for the day. It's color coded to inform the user of the status of each event.</p>
-                    <img src={planning} className="planning" alt="daily-planning" />
-                    <h3>Technologies</h3>
-                    <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                    </ul>
-
-                    <p>
-                        <a href="https://github.com/symlara/daily-planning" target="_blank" rel="noopener noreferrer">Daily Planning GitHub</a>
-                        <br></br>
-                        <a href="https://symlara.github.io/daily-planning/" target="_blank" rel="noopener noreferrer">Daily Planning App</a>
-                    </p>
-                </div>
             </div>
             <div className="row text-center text-white">
             <div className="col-lg-2 mx-auto">
