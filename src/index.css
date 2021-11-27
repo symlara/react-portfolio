@@ -32,7 +32,11 @@ code {
 
 .resume a {
   text-decoration: none;
-  color: black;
+  color: #fff;
+}
+
+.resume a:hover {
+  color: gold;
 }
 
 .resume {
