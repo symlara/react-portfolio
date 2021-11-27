@@ -20,7 +20,7 @@ function Project(props) {
                     <h1>About Allen Stone</h1>
                         <p id="overflow">This app is a quick source to all things Allen Stone, who is a Pop/Soul Musician. It's a source for Al's music, Instagram photos, and even his social media accounts! Another cool aspect of this app is that the user can interact with other fans by making comments in the comment field on the page and those messages will be saved for the user.</p>
                         <img src={allen} className="allen-stone" alt="allen-stone" />
-                        <h3>Technologies</h3>
+                        <h3>Technologies:</h3>
                         <ul>
                         <li>Deezer API</li>
                         <li>Tachyons CSS</li>
@@ -43,7 +43,7 @@ function Project(props) {
                 <h1>Alien Generator</h1>
                 <p>This app was created to help to inspire game masters, artists, and players in the endeavor of character creation and design. Each lifeform will be generated with a random backstory, physical description, and list of abilities!</p>
                 <img src={alien} className="alien" alt="alien-generator" />
-                <h3>Technologies</h3>
+                <h3>Technologies:</h3>
                 <ul>
                     <li>HTML/CSS</li>
                     <li>mySQL</li>
@@ -63,7 +63,7 @@ function Project(props) {
                     <h1>Blog Site</h1>
                     <p>This is a personal blog site created with MySQl, Sequalize, Express, Express Session, and Handlebars.</p>
                     <img src={blog} className="blog" alt="blog-site" />
-                    <h3>Technologies</h3>
+                    <h3>Technologies:</h3>
                     <ul>
                         <li>mySQL</li>
                         <li>Sequalize</li>
@@ -84,7 +84,7 @@ function Project(props) {
                     <h1>Note Taker</h1>
                     <p>This application is used to generate notes.</p>
                     <img src={notes} className="notes" alt="note-taker" />
-                    <h3>Technologies</h3>
+                    <h3>Technologies:</h3>
                     <ul>
                     <li>Express.js</li>
                     <li>npm uuid package</li>
@@ -102,7 +102,7 @@ function Project(props) {
                     <h1>Password Generator</h1>
                     <p>This application is used to generate a random password using JavaScript</p>
                     <img src={password} className="password" alt="password-generator app" />
-                    <h3>Technologies</h3>
+                    <h3>Technologies:</h3>
                     <ul>
                     <li>JavaScript</li>
                     <li>HTML</li>
@@ -122,7 +122,7 @@ function Project(props) {
                 <h1>Deep Thoughts</h1>
                 <p>This project was built using React and is a full stack MERN application.</p> 
                 <img src={deepthoughts} className="thoughts" alt="deep-thoughts-app" />
-                <h3>Technologies</h3>
+                <h3>Technologies:</h3>
                 <ul>
                     <li>MongoDB</li>
                     <li>Express.js</li>
@@ -143,7 +143,7 @@ function Project(props) {
                 <h1>Photo Album</h1>
                 <p>A great resource for local freelance photographers and clients. This 1 app will help photographers generate revenue in 3 ways: Selling prints, Booking clients for sessions and students for lessons. This app is easily accessible by mobile device for the client to purchase photographs and hire local photographers</p>
                 <img src={photoalbum} className="album" alt="album-app" />
-                <h3>Technologies</h3>
+                <h3>Technologies:</h3>
                 <ul>
                     <li>MongoDB</li>
                     <li>Express.js</li>
