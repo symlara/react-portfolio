@@ -18,7 +18,7 @@ function Project(props) {
             <div className="row text-center text-white">
                 <div className="col-lg-2 mx-auto">
                     <h1>About Allen Stone</h1>
-                        <p id="overflow">This app is a quick source to all things Allen Stone, who is a Pop/Soul Musician. It's a source for Al's music, Instagram photos, and even his social media accounts! Another cool aspect of this app is that the user can interact with other fans by making comments in the comment field on the page and those messages will be saved for the user.</p>
+                        <p id="overflow">This app is a quick source to all things Allen Stone, who is a Pop/Soul Musician. It's a source for Al's music, and links to his social media accounts! Another cool aspect of this app is that the user can interact with other fans by making comments in the comment field on the page and those messages will be saved for the fans to see!</p>
                         <img src={allen} className="allen-stone" alt="allen-stone" />
                         <h3>Technologies:</h3>
                         <ul>
