@@ -9,7 +9,6 @@ import deepthoughts from '../../assets/images/deep-thoughts.png';
 import photoalbum from '../../assets/images/photo-album.png';
 
 
-
 function Project(props) {
 
     return (
