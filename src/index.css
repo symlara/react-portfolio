@@ -17,13 +17,121 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--secondary);
   color: #ffffff;
+  cursor: pointer;
 }
-
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/* header styles */
+.dim:hover, .dim:focus {
+  opacity: 0.8;
+  transition: opacity .15s ease-in;
+}
+
+#header {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.tc {
+  text-align: center;
+}
+
+.mb3 {
+  margin-bottom: 1rem;
+}
+
+.f-headline-ns {
+  font-size: 6rem;
+}
+
+.db {
+  display: block;
+}
+
+.b {
+  font-weight: bold;
+}
+.f1 {
+  font-size: 3rem;
+}
+
+/*header styles end */
+
+/* nav styles */
+
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#nav li :hover {
+  opacity: 1;
+  transition: opacity .15s ease-in;
+  color: lightgray;
+}
+
+.navActive {
+  color: #ffffff;
+  cursor: pointer;
+}
+
+
+ul {
+  list-style-type: none;
+}
+
+
+
+
+
+
+
+
+/* footer styles */
+
+#footer {
+	display: flex;
+	flex-wrap: wrap;
+  justify-content: space-evenly;
+} 
+
+
+
+.github-pic {
+  width: 60px;
+}
+
+.github-pic:hover {
+  opacity: 0.5;
+}
+
+.linkedin {
+  width: 40px;
+}
+
+.linkedin:hover {
+  opacity: 0.5;
+}
+
+.twitter {
+  width: 40px;
+}
+
+.twitter:hover {
+  opacity: 0.5;
+}
+
+
+
+
+
+
+
 
 /* resume page styles */
 .resume-header {
@@ -100,7 +208,6 @@ code {
 
 .container a:hover {
   background-color: var(--primary);
-  border-radius: 2px;
 }
 
 #overflow {

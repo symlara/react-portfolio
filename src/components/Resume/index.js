@@ -1,5 +1,5 @@
 import React from 'react';
-import resume from "../../assets/files/AS updated resume 21.docx";
+import resume from "../../assets/files/Aaliyah Symlar_Resume_2022.docx";
 
 function Resume() {
     return (
