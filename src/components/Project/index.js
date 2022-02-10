@@ -1,12 +1,10 @@
 import React from 'react';
-// import Card from 'react-bootstrap/Card';
 import allen from "../../assets/images/allenstone.jpg";
 import alien from "../../assets/images/lifeform_background.jpg";
- import blog from "../../assets/images/112373497-053d4900-8caf-11eb-9127-f38ffec41fe1.png";
 import notes from "../../assets/images/note-taker.png";
 import password from "../../assets/images/password-generator.png";
-import deepthoughts from '../../assets/images/deep-thoughts.png';
-import photoalbum from '../../assets/images/photo-album.png';
+import han from '../../assets/images/han_solo_project.png';
+import 'tachyons';
 
 
 function Project(props) {
@@ -15,9 +13,9 @@ function Project(props) {
 
         <div className="container">
             <div className="row text-center text-white">
-                <div className="col-lg-2 mx-auto">
+                <div class="pa3 pa5-ns">
                     <h1>About Allen Stone</h1>
-                        <p id="overflow">This app is a quick source to all things Allen Stone, who is a Pop/Soul Musician. It's a source for Al's music, and links to his social media accounts! Another cool aspect of this app is that the user can interact with other fans by making comments in the comment field on the page and those messages will be saved for the fans to see!</p>
+                        <p id="overflow">This app is a quick source to all things Allen Stone, who is a Pop/Soul Musician. It's a source for Al's music, and links to his social media accounts! </p>
                         <img src={allen} className="allen-stone" alt="allen-stone" />
                         <h3>Technologies:</h3>
                         <ul>
@@ -38,7 +36,7 @@ function Project(props) {
                 </div>
           
 
-            <div className="col-lg-2">
+            <div class="pa3 pa5-ns">
                 <h1>Alien Generator</h1>
                 <p>This app was created to help to inspire game masters, artists, and players in the endeavor of character creation and design. Each lifeform will be generated with a random backstory, physical description, and list of abilities!</p>
                 <img src={alien} className="alien" alt="alien-generator" />
@@ -58,28 +56,14 @@ function Project(props) {
                 </p>
                 </div>
 
-                <div className="col-lg-2">
-                    <h1>Blog Site</h1>
-                    <p>This is a personal blog site created with MySQl, Sequalize, Express, Express Session, and Handlebars.</p>
-                    <img src={blog} className="blog" alt="blog-site" />
-                    <h3>Technologies:</h3>
-                    <ul>
-                        <li>mySQL</li>
-                        <li>Sequalize</li>
-                        <li>Express</li>
-                        <li>Express Seesion</li>
-                        <li>Handlebars</li>
-                        <li>Jest</li> 
-                        <li>Connect Session Sequalize</li>
-                    </ul>
-                    <p>
-                        <a href="https://github.com/symlara/blog-site/ " target="_blank" rel="noopener noreferrer">Blog Site GitHub</a>
-                        <br></br>
-                        <a href="https://arcane-meadow-70375.herokuapp.com/" target="_blank" rel="noopener noreferrer">Blog Site App</a>
-                    </p>
+
+                <div class="pa3 pa5-ns">
+                    <h1>Star Wars Character</h1>
+                    <p>This project has been created to show spotlight on Han Solo from Star Wars as a profile page. This will be a REACT app built using API tool SWAPI.</p>
+                    <img src={han} className="han" alt="han-solo" />
                 </div>
 
-                <div className="col-lg-2">
+                <div class="pa3 pa5-ns">
                     <h1>Note Taker</h1>
                     <p>This application is used to generate notes.</p>
                     <img src={notes} className="notes" alt="note-taker" />
@@ -97,7 +81,7 @@ function Project(props) {
                     </p>
                 </div>
 
-                <div className="col-lg-2">
+                <div class="pa3 pa5-ns">
                     <h1>Password Generator</h1>
                     <p>This application is used to generate a random password using JavaScript</p>
                     <img src={password} className="password" alt="password-generator app" />
@@ -116,50 +100,6 @@ function Project(props) {
                 </div>
 
             </div>
-            <div className="row text-center text-white">
-            <div className="col-lg-2 mx-auto">
-                <h1>Deep Thoughts</h1>
-                <p>This project was built using React and is a full stack MERN application.</p> 
-                <img src={deepthoughts} className="thoughts" alt="deep-thoughts-app" />
-                <h3>Technologies:</h3>
-                <ul>
-                    <li>MongoDB</li>
-                    <li>Express.js</li>
-                    <li>React</li>
-                    <li>Node.js</li>
-                    <li>JSX</li>
-                    <li>CSS</li>
-                </ul>
-
-                <p>
-                    <a href="https://github.com/symlara/deep-thoughts" target="_blank" rel="noopener noreferrer">Deep Thuoghts GitHub</a>
-                    <br />
-                    <a href="https://shielded-depths-37761.herokuapp.com" target="_blank" rel="noopener noreferrer">Deep Thoughts App</a>
-                </p>
-            </div>
-
-            <div className="col-lg-10 mx-auto">
-                <h1>Photo Album</h1>
-                <p>A great resource for local freelance photographers and clients. This 1 app will help photographers generate revenue in 3 ways: Selling prints, Booking clients for sessions and students for lessons. This app is easily accessible by mobile device for the client to purchase photographs and hire local photographers</p>
-                <img src={photoalbum} className="album" alt="album-app" />
-                <h3>Technologies:</h3>
-                <ul>
-                    <li>MongoDB</li>
-                    <li>Express.js</li>
-                    <li>React</li>
-                    <li>Node.js</li>
-                    <li>JSX</li>
-                    <li>CSS</li>
-                    <li>React</li>
-                    <li>Mongoose</li>
-                </ul>
-
-                <p>
-                    <a href="https://github.com/jojoford/Project3" target="_blank" rel="noopener noreferrer">Photo Album Github</a>
-                </p>
-            </div>
-
-        </div>
 
         </div>
 

@@ -178,8 +178,8 @@ ul {
   height: 350px;
 }
 
-.blog {
-  height: 340px;
+.han {
+  height: 550px;
 }
 
 .notes {
@@ -198,9 +198,6 @@ ul {
   height: 350px;
 }
 
-.album {
-  height: 350px;
-}
 
 .container a {
   text-decoration: none;
