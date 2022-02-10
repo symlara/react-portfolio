@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../../src/index.css'
-
+import 'tachyons';
 
 function Nav (props) {
     const { currentTab, setCurrentTab } = props;

@@ -3,6 +3,7 @@ import github from '../../assets/images/2048px-Octicons-mark-github.svg.png';
 import linkedin from '../../assets/images/LI-In-Bug.png';
 import twitter from '../../assets/images/logo-rond-twitter.png';
 import '../../../src/index.css'
+import 'tachyons';
 
 function Footer() {
     return (
