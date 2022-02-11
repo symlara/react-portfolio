@@ -4,6 +4,7 @@ import alien from "../../assets/images/lifeform_background.jpg";
 import notes from "../../assets/images/note-taker.png";
 import password from "../../assets/images/password-generator.png";
 import han from '../../assets/images/han_solo_project.png';
+import her from '../../assets/images/Back_Of_My_Mind_By_H.E.R.png';
 import 'tachyons';
 
 
@@ -14,6 +15,8 @@ function Project(props) {
         <div className="container">
             <div className="row text-center text-white">
                 <div class="pa3 pa5-ns">
+
+                    {/* allen stone project  */}
                     <h1>About Allen Stone</h1>
                         <p id="overflow">This app is a quick source to all things Allen Stone, who is a Pop/Soul Musician. It's a source for Al's music, and links to his social media accounts! </p>
                         <img src={allen} className="allen-stone" alt="allen-stone" />
@@ -32,6 +35,29 @@ function Project(props) {
                             <a href="https://github.com/symlara/about-allen-project" target="_blank" rel="noopener noreferrer">Allen Stone Github</a>
                             <br></br>
                                 <a href="https://symlara.github.io/about-allen-project/" target="_blank" rel="noopener noreferrer">Allen Stone Site</a>
+                        </p>
+                </div>
+
+                {/* H.E.R project */}
+
+                <div class="pa3 pa5-ns">
+                    <h1>H.E.R FanPage</h1>
+                        <p id="overflow">Fan Site created for multi-grammy winner H.E.R. This site will stand as a source for all things H.E.R, including Shows, interviews, Tour, and Miscellaneous things.</p>
+                        <img src={her} className="her" alt="h.e.r" />
+                        <h3>Technologies:</h3>
+                        <ul>
+                        <li>Deezer API</li>
+                        <li>Tachyons CSS</li>
+                        <li>Express</li>
+                        <li>JavaScript</li>
+                         <li>HTML/CSS</li>
+                         <li>Node.js</li>
+                        </ul>
+
+                        <p>
+                            <a href="https://github.com/symlara/HERFan" target="_blank" rel="noopener noreferrer">H.E.R FanSite Github</a>
+                            <br></br>
+                                <a href="https://symlara.github.io/HERFan/" target="_blank" rel="noopener noreferrer">H.E.R FaSite</a>
                         </p>
                 </div>
           
@@ -99,6 +125,7 @@ function Project(props) {
                     </p>
                 </div>
 
+                <h1 class="tc f5 ttu fw6 tracked mb4" id="new-projects">New Projects Coming Soon! Stay tuned!</h1>
             </div>
 
         </div>

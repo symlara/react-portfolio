@@ -24,6 +24,20 @@ function Portfolio() {
             deployedLink: 'https://symlara.github.io/about-allen-project/',
         },
         {
+            name: "H.E.R FanPage",
+            description: "Fan Site created for multi-grammy winner H.E.R. This site will stand as a source for all things H.E.R, including Shows, interviews, Tour, and Miscellaneous things.",
+            image: 'Back_Of_My_Mind_By_H.E.R.png',
+            technologies: [
+                'Deezer API',
+                'HTML/CSS',
+                'JavaScript',
+                'Express',
+                'Node.js'
+            ],
+            github: 'https://github.com/symlara/HERFan',
+            deployedLink: 'https://symlara.github.io/HERFan/'
+        },
+        {
             name: 'Alien Generator',
             description: "This app was created to help to inspire game masters, artists, and players in the endeavor of character creation and design. Each lifeform will be generated with a random backstory, physical description, and list of abilities!",
             image: 'lifeform_background.jpg',
@@ -77,9 +91,6 @@ function Portfolio() {
     
     return (
         <section>
-           <div id="portfolio">
-                <h1> My Portfolio</h1>
-            </div>
 
             <div>
                 <ul className="flex-row">
