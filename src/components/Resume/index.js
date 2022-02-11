@@ -1,52 +1,39 @@
 import React from 'react';
-import resume from "../../assets/files/Aaliyah Symlar_Resume_2022.docx";
+import 'tachyons';
 
 function Resume() {
     return (
-        <section>
-            <div className="center">
-                <h1 className="resume-header">My Resume</h1>
-            </div>
-
-            <div className="resume">
-                <a href={resume} download>Download my Resume here</a>
-            </div>
-            
-            <div className="proficiencies">
-                    <h3> Front-End Proficiencies</h3>
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                        <li>jQuery</li>
-                        <li>Bootstrap</li>
-                        <li>React</li>
-                        <li>Git</li>
-                        <li>Responsive UI</li>
-                    </ul>
-                    <br />
-                    <h3>Back-End Proficiencies</h3>
-                    <ul>
-                        <li>APIs</li>
-                        <li>Node.Js</li>
-                        <li>Express</li>
-                        <li>(MVC) Model View Controller</li>
-                        <li>REST</li>
-                        <li>(PWA) Progressive Web Application</li>
-                    </ul>
-                   <br />
-                       <h3>Dev-Tool Proficiencies</h3>
-                       <ul>
-                       <li>mySQL</li>
-                       <li>Sequalize</li>
-                       <li>noSQL</li>
-                       <li>SQLite</li>
-                       <li>MongoDB</li>
-                       <li>Mongoose</li>
-                   </ul>
-            </div>
-        </section>
-    )
+       
+            <article class="cf pa3 mw9 center" id="proficiencies">
+                <h1 class="f3 f2-m f1-l">My Resume</h1>
+                    <section class="fl w-100">
+                         <div class="fl w-100 w-50-m w-25-l pa3-m pa4-l">
+                             <h2>Front-End Proficiencies</h2>
+                                <p class="f6 lh-copy measure">
+                                  HTML, CSS, JavaScript, jQuery, Bootstrap, React, Git, Responsive UI, Canva
+                              </p>
+                        </div>
+                <div class="fl w-100 w-50-m w-25-l pa3-m pa4-l">
+                    <h2>Back-End Proficiencies</h2>
+                        <p class="f6 lh-copy measure">
+                                 APIs, Node.Js, Express, (MVC) Model View Controller, REST, (PWA) Progressive Web Application
+                        </p>
+                </div>
+    
+                 <div class="fl w-100 w-50-m w-25-l pa3-m pa4-l">
+                     <h2>Dev-Tool Proficiencies</h2>
+                        <p class="f6 lh-copy measure">
+                                 mySQL,
+                                 Sequalize,
+                                noSQL,
+                                SQLite,
+                                MongoDB,
+                                Mongoose
+                        </p>
+                    </div>
+                </section>
+            </article>
+        );
 }
 
 export default Resume;

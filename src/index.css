@@ -17,7 +17,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--secondary);
   color: #ffffff;
-  cursor: pointer;
 }
 
 code {
@@ -86,6 +85,9 @@ ul {
   list-style-type: none;
 }
 
+#nav li {
+  cursor: pointer;
+}
 
 
 
@@ -223,54 +225,8 @@ p {
 
 
 /* contact page */
-form {
-  width: 40%;
-}
 
- .name {
-  margin: 10px;
+#contact a{
+  color: #ffffff;
+  text-decoration: none;
 }
-
-.email {
-  margin: 10px;
-}
-
-.message {
-  margin: 10px;
-}
-
-#contact-me {
-  text-align: center;
-}
-
-input {
-  font-size: 1rem;
-  padding: 5px;
-  margin: 10px;
-  border: 1px solid var(--dark);
-  outline: none;
-  border-radius: 3px;
-  transition: box-shadow 0.2s;
-}
-
-textarea {
-	width: 450px;
-	height: 120px;
-	border: 3px solid #cccccc;
-  padding: 0.25rem;
-  border-radius: 3px;
-  margin: 10px;
-}
-
-button {
-	border: 0;
-	border-radius: 8px;
-	color: #000000;
-	cursor: pointer;
-	font-size: 16px;
-	font-weight: 600;
-	margin-bottom: 30px;
-  padding: 5px 10px;	
-  margin: 10px;
-}
-
