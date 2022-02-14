@@ -43,7 +43,7 @@ function Project(props) {
                 <div class="pa3 pa5-ns" id="her">
                     <h1>H.E.R FanPage</h1>
                         <p id="overflow">Fan Site created for multi-grammy winner H.E.R. This site will stand as a source for all things H.E.R, including Shows, interviews, Tour, and Miscellaneous things.</p>
-                        <img src={her} className="her" alt="h.e.r" />
+                        <img src={her} className="her center-3" alt="h.e.r" />
                         <h3>Technologies:</h3>
                         <ul>
                         <li>Deezer API</li>
