@@ -14,12 +14,12 @@ function Project(props) {
 
         <div className="container">
             <div className="row text-center text-white">
-                <div class="pa3 pa5-ns">
+                <div class="pa3 pa5-ns" id="allen">
 
                     {/* allen stone project  */}
                     <h1>About Allen Stone</h1>
                         <p id="overflow">This app is a quick source to all things Allen Stone, who is a Pop/Soul Musician. It's a source for Al's music, and links to his social media accounts! </p>
-                        <img src={allen} className="allen-stone" alt="allen-stone" />
+                        <img src={allen} className="allen-stone center-2" alt="allen-stone" />
                         <h3>Technologies:</h3>
                         <ul>
                         <li>Deezer API</li>
@@ -40,7 +40,7 @@ function Project(props) {
 
                 {/* H.E.R project */}
 
-                <div class="pa3 pa5-ns">
+                <div class="pa3 pa5-ns" id="her">
                     <h1>H.E.R FanPage</h1>
                         <p id="overflow">Fan Site created for multi-grammy winner H.E.R. This site will stand as a source for all things H.E.R, including Shows, interviews, Tour, and Miscellaneous things.</p>
                         <img src={her} className="her" alt="h.e.r" />

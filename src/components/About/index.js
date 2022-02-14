@@ -5,11 +5,11 @@ import 'tachyons';
 
 function About() {
     return (
-        <article class="pa3 pa5-ns">
-            <div className="center" id="about">
+        <article class="pa3 pa5-ns" id="about">
+            <div className="center">
             <h2 class="f3 f2-m f1-l">About Me</h2>
                 </div>
-                <div className="profile-picture">
+                <div className="profile-picture center-1">
                     <img src={headshot} alt="profile" />
                 </div>
 
