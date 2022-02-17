@@ -90,12 +90,12 @@ ul {
   cursor: pointer;
 }
 
+/* nav styles end */
 
+/* about section */
 #about h2 {
   font-size: 35px;
 }
-
-
 
 
 /* footer styles */
@@ -105,8 +105,6 @@ ul {
 	flex-wrap: wrap;
   justify-content: space-evenly;
 } 
-
-
 
 .github-pic {
   width: 60px;
@@ -134,11 +132,6 @@ ul {
 
 
 
-
-
-
-
-
 /* resume page styles */
 .resume-header {
  text-align: center; 
@@ -157,8 +150,16 @@ ul {
   padding-left: 10px;
 }
 
-.proficiencies h3 {
-  padding-left: 10px; 
+#proficiencies h1 {
+  font-size: 35px;
+}
+#proficiencies h2 {
+  font-size: 25px;
+  padding-left: 2px; 
+}
+
+#proficiencies p{
+  font-size: 18px;
 }
 
 .mx-2 {
@@ -175,38 +176,112 @@ ul {
   text-align: center;
 }
 
+/* allen project */
 .allen-stone {
   height: 350px;
 }
+
+#allen h3 {
+  font-size: 25px;
+}
+
+#allen li {
+  font-size: 18px;
+}
+
+#allen p {
+  font-size: 18px
+}
+
+/* her project */
 
 .her {
   width: 350px;
 }
 
+#her h3 {
+  font-size: 25px;
+}
+
+#her li {
+  font-size: 18px;
+}
+
+#her p {
+  font-size: 18px;
+}
+
+/* alien project */
 .alien {
   height: 350px;
 }
 
+#alien h3 {
+  font-size: 25px;
+}
+
+#alien li {
+  font-size: 18px;
+}
+
+#alien p {
+  font-size: 18px;
+}
+
+/*star wars project */
 .han {
   height: 550px;
 }
 
+#star-wars h3 {
+  font-size: 25px;
+}
+
+#star-wars li {
+  font-size: 18px;
+}
+
+#star-wars p {
+  font-size: 18px;
+}
+
+/*note taker project */
 .notes {
   height: 350px;
 }
 
+#note-taker h3 {
+  font-size: 25px;
+}
+
+#note-taker li {
+  font-size: 18px;
+}
+
+#note-taker p {
+  font-size: 18px;
+}
+
+/*password generator project */
 .password {
   height: 340px;
 }
 
-.planning {
-  height: 350px;
+#password-generator h3 {
+  font-size: 25px;
 }
 
-.thoughts {
-  height: 350px;
+#password-generator li {
+  font-size: 18px;
 }
 
+#password-generator p{
+  font-size: 18px;
+}
+
+#new-projects {
+  font-size: 25px;
+}
 
 .container a {
   text-decoration: none;
@@ -229,9 +304,14 @@ p {
 
 /* contact page */
 
+#contact h1 {
+  font-size: 35px;
+}
+
 #contact a{
   color: #ffffff;
   text-decoration: none;
+  font-size: 18px;
 }
 
 
