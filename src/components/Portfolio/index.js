@@ -38,6 +38,18 @@ function Portfolio() {
             deployedLink: 'https://symlara.github.io/HERFan/'
         },
         {
+            name: "FutureVU",
+            description:  "This project is an ongoing initiative being completed by Vanderbilt University. There are multiple stakeholders involved in the building/look, and feel of this project one of them primarily being the Digital Stragies team I am a part of. I along with my teammates have built out almost all of the pages you see on the sites currently made public in the new look and feel of the Vanderbilt web presense. This project has allowed me to grow in the field of web content management, as well as get stronger in understanding the strategical side of content and where it fits on a page/site.",
+            image: "vanderbilt-homepage.png",
+            technologies: [
+                'HTML/CSS',
+                'JavaScript'
+            ],
+            github: 'https://github.com/symlara/Portfolio',
+            deployedLink: 'https://symlara.github.io/Portfolio/'
+
+        },
+        {
             name: 'Alien Generator',
             description: "This app was created to help to inspire game masters, artists, and players in the endeavor of character creation and design. Each lifeform will be generated with a random backstory, physical description, and list of abilities!",
             image: 'lifeform_background.jpg',
@@ -70,21 +82,6 @@ function Portfolio() {
             technologies: ['JavaScript', 'HTML', 'CSS'],
             github: 'https://github.com/symlara/password-assistant',
             deployedLink: 'https://symlara.github.io/password-assistant/'
-        },
-        {
-            name: "Daily-Planning",
-            description: "This calendar application runs in the browser and is used to allow users to see their events for the day. It's color coded to inform the user of the status of each event.",
-            image: 'daily-planning-calendar.png',
-            technologies: ['HTML', 'CSS', 'JavaScript'],
-            github: 'https://github.com/symlara/daily-planning',
-            deployedLink: 'https://symlara.github.io/daily-planning/'
-        },
-        {
-            name: "Photo Album",
-            description: "A great resource for local freelance photographers and clients. This 1 app will help photographers generate revenue in 3 ways: Selling prints, Booking clients for sessions and students for lessons. This app is easily accessible by mobile device for the client to purchase photographs and hire local photographers",
-            image: 'photo-album.png',
-            technologies: ['React', 'MERN Stack app', 'CSS', 'Javascript', 'JWT', 'MongoDB', 'Mongoose ODM', 'GraphQL ', 'Node.js', 'Express.js'],
-            github: 'https://github.com/jojoford/Project3',
         }
 	];
 
