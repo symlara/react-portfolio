@@ -3,7 +3,7 @@ import allen from "../../assets/images/allenstone.jpg";
 import alien from "../../assets/images/lifeform_background.jpg";
 import notes from "../../assets/images/note-taker.png";
 import password from "../../assets/images/password-generator.png";
-import han from '../../assets/images/han_solo_project.png';
+import han from '../../assets/images/han-solo-1.png';
 import her from '../../assets/images/Back_Of_My_Mind_By_H.E.R.png';
 import 'tachyons';
 
@@ -16,7 +16,8 @@ function Project(props) {
             <div className="row text-center text-white">
                 <div class="pa3 pa5-ns" id="allen">
 
-                    {/* allen stone project  */}
+                    {/* Allen Stone project  */}
+
                     <h1>About Allen Stone</h1>
                         <p id="overflow">This app is a quick source to all things Allen Stone, who is a Pop/Soul Musician. It's a source for Al's music, and links to his social media accounts! </p>
                         <img src={allen} className="allen-stone center-2" alt="allen-stone" />
@@ -57,15 +58,16 @@ function Project(props) {
                         <p>
                             <a href="https://github.com/symlara/HERFan" target="_blank" rel="noopener noreferrer">H.E.R FanSite Github</a>
                             <br></br>
-                                <a href="https://symlara.github.io/HERFan/" target="_blank" rel="noopener noreferrer">H.E.R FaSite</a>
+                                <a href="https://symlara.github.io/HERFan/" target="_blank" rel="noopener noreferrer">H.E.R FanSite</a>
                         </p>
                 </div>
           
+                {/* Alien generator project */}
 
-            <div class="pa3 pa5-ns">
+            <div class="pa3 pa5-ns" id="alien">
                 <h1>Alien Generator</h1>
                 <p>This app was created to help to inspire game masters, artists, and players in the endeavor of character creation and design. Each lifeform will be generated with a random backstory, physical description, and list of abilities!</p>
-                <img src={alien} className="alien" alt="alien-generator" />
+                <img src={alien} className="alien center-4" alt="alien-generator" />
                 <h3>Technologies:</h3>
                 <ul>
                     <li>HTML/CSS</li>
@@ -75,6 +77,7 @@ function Project(props) {
                     <li>express</li>
                     <li>ejs</li>
                 </ul>
+                
                 <p>
                 <a href="https://github.com/symlara/alien-generator" target="_blank" rel="noopener noreferrer">Alien Generator GitHub</a>
                 <br></br>
@@ -83,11 +86,27 @@ function Project(props) {
                 </div>
 
 
-                <div class="pa3 pa5-ns">
+             {/* Star Wars project */}
+
+                <div class="pa3 pa5-ns" id="star-wars">
                     <h1>Star Wars Character</h1>
                     <p>This project has been created to show spotlight on Han Solo from Star Wars as a profile page. This will be a REACT app built using API tool SWAPI.</p>
-                    <img src={han} className="han" alt="han-solo" />
+                    <img src={han} className="han center-5" alt="han-solo" />
+                    <h3>Technologies</h3>
+                    <ul>
+                        <li>HTML/CSS</li>
+                        <li>React.js</li>
+                        <li>Node.js</li>
+                        <li>JavaScript</li>
+                    </ul>
+                <p>
+                    <a href="https://github.com/symlara/Star-Wars-Character" target="_blank" rel="noopener noreferrer">Star Wars GitHub</a>
+                    <br></br>
+                    <a href="https://symlara.github.io/Star-Wars-Character/" target="_blank" rel="noopener noreferrer">Star Wars App</a>
+                </p>
                 </div>
+
+             {/* Note Taker project */}
 
                 <div class="pa3 pa5-ns">
                     <h1>Note Taker</h1>
@@ -106,6 +125,8 @@ function Project(props) {
                         <a href="https://note-creater.herokuapp.com/notes" target="_blank" rel="noopener noreferrer">Note Taker App</a>
                     </p>
                 </div>
+
+             {/* Password Generator project */}
 
                 <div class="pa3 pa5-ns">
                     <h1>Password Generator</h1>

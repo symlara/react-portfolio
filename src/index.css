@@ -277,6 +277,8 @@ p {
     margin-right: auto;
   }
 
+  /* allen project */
+
   #allen h1 {
     font-size: 30px;
     text-align:center;
@@ -308,6 +310,7 @@ p {
     text-align: center;
   }
 
+  /*h.e.r project */
 
   #her h1 {
     font-size: 30px;
@@ -336,6 +339,72 @@ p {
   }
 
   #her a {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  /* alien project */
+
+  #alien h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  #alien p {
+    font-size: 15px;
+    line-height: 1.5;
+    text-align: center;
+  }
+
+  .center-4 {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #alien h3 {
+    font-size: 20px;
+  }
+
+  #alien li {
+    font-size: 15px;
+  }
+
+  #alien a {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  /* star-wars project */
+
+  #star-wars h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  #star-wars p {
+    font-size: 15px;
+    line-height: 1.5;
+    text-align: center;
+  }
+
+  .center-5 {
+    display: block;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #star-wars h3 {
+    font-size: 20px;
+  }
+
+  #star-wars li {
+    font-size: 15px;
+  }
+
+  #star-wars a {
     font-size: 15px;
     text-align: center;
   }
