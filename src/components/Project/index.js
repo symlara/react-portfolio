@@ -108,10 +108,10 @@ function Project(props) {
 
              {/* Note Taker project */}
 
-                <div class="pa3 pa5-ns">
+                <div class="pa3 pa5-ns" id="note-taker">
                     <h1>Note Taker</h1>
                     <p>This application is used to generate notes.</p>
-                    <img src={notes} className="notes" alt="note-taker" />
+                    <img src={notes} className="notes center-6" alt="note-taker" />
                     <h3>Technologies:</h3>
                     <ul>
                     <li>Express.js</li>
@@ -128,10 +128,10 @@ function Project(props) {
 
              {/* Password Generator project */}
 
-                <div class="pa3 pa5-ns">
+                <div class="pa3 pa5-ns" id="password-generator">
                     <h1>Password Generator</h1>
                     <p>This application is used to generate a random password using JavaScript</p>
-                    <img src={password} className="password" alt="password-generator app" />
+                    <img src={password} className="password center-7" alt="password-generator app" />
                     <h3>Technologies:</h3>
                     <ul>
                     <li>JavaScript</li>
