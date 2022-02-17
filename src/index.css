@@ -478,4 +478,43 @@ p {
     font-size: 30px;
     text-align: center;
   }
+
+  /* contact styles */
+
+  #contact {
+    text-align: center;
+  }
+
+  #contact h1 {
+    font-size: 30px;
+  }
+
+  #contact a {
+    font-size: 15px;
+  }
+
+  /* footer styles */
+
+  #footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  /*resume styles */
+
+  #proficiencies h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  #proficiencies h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  #proficiencies p {
+    font-size: 15px;
+    text-align: center;
+  }
 }
