@@ -1,5 +1,6 @@
 import React from 'react';
 import allen from "../../assets/images/allenstone.jpg";
+import futurevu from '../../assets/images/vanderbilt-homepage.png';
 import alien from "../../assets/images/lifeform_background.jpg";
 import notes from "../../assets/images/note-taker.png";
 import password from "../../assets/images/password-generator.png";
@@ -61,7 +62,23 @@ function Project(props) {
                                 <a href="https://symlara.github.io/HERFan/" target="_blank" rel="noopener noreferrer">H.E.R FanSite</a>
                         </p>
                 </div>
-          
+           {/* FutureVU project */}
+
+           <div class="pa3 pa5-ns" id="futurevu">
+               <h1>FutureVU</h1>
+               <p>This project is an ongoing initiative being completed by Vanderbilt University. There are multiple stakeholders involved in the building/look, and feel of this project one of them primarily being the Digital Stragies team I am a part of. I along with my teammates have built out almost all of the pages you see on the sites currently made public in the new look and feel of the Vanderbilt web presense. This project has allowed me to grow in the field of web content management, as well as get stronger in understanding the strategical side of content and where it fits on a page/site.</p>
+               <img src={futurevu} className="futurevu center-8" alt="future-vu" />
+               <h3>Technologies</h3>
+               <ul>
+                   <li>HTML/CSS</li>
+                   <li>PHP</li>
+                   <li>Node.js</li>
+                   <li>WP Installs</li>
+                   <li>AJAX</li>
+                   <li>SQL</li>
+               </ul>
+           </div>
+
                 {/* Alien generator project */}
 
             <div class="pa3 pa5-ns" id="alien">

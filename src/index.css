@@ -211,6 +211,23 @@ ul {
   font-size: 18px;
 }
 
+/* futurevu project */
+.futurevu {
+  height: 350px;
+}
+
+#future h3 {
+  font-size: 25px;    
+}
+
+#futurevu li {
+  font-size: 18px;
+}
+
+#futurevu p {
+  font-size: 18px;
+}
+
 /* alien project */
 .alien {
   height: 350px;
@@ -422,6 +439,35 @@ p {
     font-size: 15px;
     text-align: center;
   }
+
+  /* futurevu project */
+
+  #futurevu h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  #futurevu p {
+    font-size: 15px;
+    line-height: 1.5;
+    text-align: center;
+  }
+  
+  .center-8 {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #futurevu h3 {
+    font-size: 20px;
+  }
+
+  #futurevu li {
+    font-size: 15px;
+  }
+
 
   /* alien project */
 
