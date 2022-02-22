@@ -271,23 +271,6 @@ ul {
   font-size: 18px;
 }
 
-/*star wars project */
-.han {
-  height: 550px;
-}
-
-#star-wars h3 {
-  font-size: 25px;
-}
-
-#star-wars li {
-  font-size: 18px;
-}
-
-#star-wars p {
-  font-size: 18px;
-}
-
 /*note taker project */
 .notes {
   height: 350px;
@@ -528,38 +511,6 @@ p {
     text-align: center;
   }
 
-  /* star-wars project */
-
-  #star-wars h1 {
-    font-size: 30px;
-    text-align: center;
-  }
-
-  #star-wars p {
-    font-size: 15px;
-    line-height: 1.5;
-    text-align: center;
-  }
-
-  .center-5 {
-    display: block;
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  #star-wars h3 {
-    font-size: 20px;
-  }
-
-  #star-wars li {
-    font-size: 15px;
-  }
-
-  #star-wars a {
-    font-size: 15px;
-    text-align: center;
-  }
 
   /* note-taker project */
 

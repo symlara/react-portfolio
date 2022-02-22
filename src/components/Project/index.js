@@ -4,7 +4,6 @@ import futurevu from '../../assets/images/vanderbilt-homepage.png';
 import alien from "../../assets/images/lifeform_background.jpg";
 import notes from "../../assets/images/note-taker.png";
 import password from "../../assets/images/password-generator.png";
-import han from '../../assets/images/han-solo-1.png';
 import her from '../../assets/images/Back_Of_My_Mind_By_H.E.R.png';
 import 'tachyons';
 
@@ -109,25 +108,6 @@ function Project(props) {
                 </div>
 
 
-             {/* Star Wars project */}
-
-                <div class="pa3 pa5-ns" id="star-wars">
-                    <h1>Star Wars Character</h1>
-                    <p>This project has been created to show spotlight on Han Solo from Star Wars as a profile page. This will be a REACT app built using API tool SWAPI.</p>
-                    <img src={han} className="han center-5" alt="han-solo" />
-                    <h3>Technologies</h3>
-                    <ul>
-                        <li>HTML/CSS</li>
-                        <li>React.js</li>
-                        <li>Node.js</li>
-                        <li>JavaScript</li>
-                    </ul>
-                <p>
-                    <a href="https://github.com/symlara/Star-Wars-Character" target="_blank" rel="noopener noreferrer">Star Wars GitHub</a>
-                    <br></br>
-                    <a href="https://symlara.github.io/Star-Wars-Character/" target="_blank" rel="noopener noreferrer">Star Wars App</a>
-                </p>
-                </div>
 
              {/* Note Taker project */}
 
