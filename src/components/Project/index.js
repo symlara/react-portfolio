@@ -77,6 +77,12 @@ function Project(props) {
                    <li>AJAX</li>
                    <li>SQL</li>
                </ul>
+
+               <p>
+                   <a href="https://www.vanderbilt.edu/" target="_blank" rel="noopener noreferrer">Vanderbilt Homepage</a>
+                   <br></br>
+                   <a href="https://admissions.vanderbilt.edu/" target="_blank" rel="noopener noreferrer">Vanderbilt Admissions</a>
+               </p>
            </div>
 
                 {/* Alien generator project */}

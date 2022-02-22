@@ -45,9 +45,8 @@ function Portfolio() {
                 'HTML/CSS',
                 'JavaScript'
             ],
-            github: 'https://github.com/symlara/Portfolio',
-            deployedLink: 'https://symlara.github.io/Portfolio/'
-
+            live_site: 'https://www.vanderbilt.edu/',
+            admissions_site: 'https://admissions.vanderbilt.edu/'
         },
         {
             name: 'Alien Generator',

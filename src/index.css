@@ -113,9 +113,14 @@ ul {
   font-size: 35px;
 }
 
+#about p {
+  font-size: 18px;
+}
+
 #resume {
   text-decoration: none;
   color: #ffffff;
+  font-size: 18px;
 }
 
 
