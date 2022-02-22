@@ -1,5 +1,6 @@
 import React from 'react';
 import headshot from '../../assets/images/Symlar_Aaliyah002.JPG';
+import resume from '../../assets/files/Aaliyah Symlar.docx';
 import '../../../src/index.css'
 import 'tachyons';
 
@@ -22,6 +23,7 @@ function About() {
                 
                 </div>
              &nbsp;
+             <p>Download my resume <a id="resume" class="dim" href={resume}>here</a></p>
             
         </article>
         
