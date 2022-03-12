@@ -58,7 +58,7 @@ function Project(props) {
                         </ul>
 
                         <p>
-                            <a href="https://symlara.github.io/hersite/" target="_blank" rel="noopener noreferrer">H.E.R FanSite Github</a>
+                            <a href="https://github.com/symlara/hersite" target="_blank" rel="noopener noreferrer">H.E.R FanSite Github</a>
                             <br></br>
                                 <a href="https://symlara.github.io/hersite/" target="_blank" rel="noopener noreferrer">H.E.R FanSite</a>
                         </p>
