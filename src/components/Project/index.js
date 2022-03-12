@@ -47,18 +47,20 @@ function Project(props) {
                         <img src={her} className="her center-3" alt="h.e.r" />
                         <h3>Technologies:</h3>
                         <ul>
+                        <li>React.js</li>
                         <li>Deezer API</li>
                         <li>Tachyons CSS</li>
-                        <li>Express</li>
                         <li>JavaScript</li>
                          <li>HTML/CSS</li>
                          <li>Node.js</li>
+                         <li>Axios</li>
+                         <li>Ably</li>
                         </ul>
 
                         <p>
-                            <a href="https://github.com/symlara/HERFan" target="_blank" rel="noopener noreferrer">H.E.R FanSite Github</a>
+                            <a href="https://symlara.github.io/hersite/" target="_blank" rel="noopener noreferrer">H.E.R FanSite Github</a>
                             <br></br>
-                                <a href="https://symlara.github.io/HERFan/" target="_blank" rel="noopener noreferrer">H.E.R FanSite</a>
+                                <a href="https://symlara.github.io/hersite/" target="_blank" rel="noopener noreferrer">H.E.R FanSite</a>
                         </p>
                 </div>
            {/* FutureVU project */}

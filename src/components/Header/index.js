@@ -11,7 +11,7 @@ function Header(props) {
     return (
         <header>
             <div>
-                <h1><a href="#" class="link dim black b f1 f-headline-ns tc db mb3 mb4-ns" id="header">Aaliyah's React Portfolio</a></h1>
+                <h1><a href="# " class="link dim black b f1 f-headline-ns tc db mb3 mb4-ns" id="header">Aaliyah's React Portfolio</a></h1>
             </div>
 
             <div>
