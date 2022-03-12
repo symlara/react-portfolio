@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.ef4dbcc2.css",
-    "main.js": "/react-portfolio/static/js/main.3f678dbe.js",
+    "main.js": "/react-portfolio/static/js/main.438bb86d.js",
     "static/js/787.7efd31bd.chunk.js": "/react-portfolio/static/js/787.7efd31bd.chunk.js",
     "static/media/vanderbilt-homepage.png": "/react-portfolio/static/media/vanderbilt-homepage.64809d9472a0fbcd829d.png",
     "static/media/lifeform_background.jpg": "/react-portfolio/static/media/lifeform_background.e4ec5225e261cdc2b917.jpg",
@@ -13,11 +13,11 @@
     "static/media/Aaliyah Symlar.docx": "/react-portfolio/static/media/Aaliyah Symlar.8c54b08738c454d5f048.docx",
     "index.html": "/react-portfolio/index.html",
     "main.ef4dbcc2.css.map": "/react-portfolio/static/css/main.ef4dbcc2.css.map",
-    "main.3f678dbe.js.map": "/react-portfolio/static/js/main.3f678dbe.js.map",
+    "main.438bb86d.js.map": "/react-portfolio/static/js/main.438bb86d.js.map",
     "787.7efd31bd.chunk.js.map": "/react-portfolio/static/js/787.7efd31bd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ef4dbcc2.css",
-    "static/js/main.3f678dbe.js"
+    "static/js/main.438bb86d.js"
   ]
 }
