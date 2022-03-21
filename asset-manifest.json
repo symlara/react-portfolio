@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.38944616.css",
-    "main.js": "/react-portfolio/static/js/main.1618c361.js",
+    "main.js": "/react-portfolio/static/js/main.d2437267.js",
     "static/js/787.7efd31bd.chunk.js": "/react-portfolio/static/js/787.7efd31bd.chunk.js",
     "static/media/vanderbilt-homepage.png": "/react-portfolio/static/media/vanderbilt-homepage.64809d9472a0fbcd829d.png",
     "static/media/lifeform_background.jpg": "/react-portfolio/static/media/lifeform_background.e4ec5225e261cdc2b917.jpg",
@@ -9,15 +9,14 @@
     "static/media/Symlar_Aaliyah002.JPG": "/react-portfolio/static/media/Symlar_Aaliyah002.960269cdd59bee3a6eed.JPG",
     "static/media/note-taker.png": "/react-portfolio/static/media/note-taker.c03fcb45ca052735b327.png",
     "static/media/allenstone.jpg": "/react-portfolio/static/media/allenstone.29237ddd9c9a20537e83.jpg",
-    "static/media/Back_Of_My_Mind_By_H.E.R.png": "/react-portfolio/static/media/Back_Of_My_Mind_By_H.E.R.ebd29e27500a8b5d74f0.png",
     "static/media/Aaliyah Symlar-Resume-2022.docx": "/react-portfolio/static/media/Aaliyah Symlar-Resume-2022.2189c94a97bec8a4844b.docx",
     "index.html": "/react-portfolio/index.html",
     "main.38944616.css.map": "/react-portfolio/static/css/main.38944616.css.map",
-    "main.1618c361.js.map": "/react-portfolio/static/js/main.1618c361.js.map",
+    "main.d2437267.js.map": "/react-portfolio/static/js/main.d2437267.js.map",
     "787.7efd31bd.chunk.js.map": "/react-portfolio/static/js/787.7efd31bd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.38944616.css",
-    "static/js/main.1618c361.js"
+    "static/js/main.d2437267.js"
   ]
 }
