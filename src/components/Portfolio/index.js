@@ -24,20 +24,20 @@ function Portfolio() {
             github: 'https://github.com/symlara/about-allen-project',
             deployedLink: 'https://symlara.github.io/about-allen-project/',
         },
-        {
-            name: "H.E.R FanPage",
-            description: "Fan Site created for multi-grammy winner H.E.R. This site will stand as a source for all things H.E.R, including Shows, interviews, Tour, and Miscellaneous things.",
-            image: 'Back_Of_My_Mind_By_H.E.R.png',
-            technologies: [
-                'Deezer API',
-                'HTML/CSS',
-                'JavaScript',
-                'Express',
-                'Node.js'
-            ],
-            github: 'https://github.com/symlara/HERFan',
-            deployedLink: 'https://symlara.github.io/HERFan/'
-        },
+        // {
+        //     name: "H.E.R FanPage",
+        //     description: "Fan Site created for multi-grammy winner H.E.R. This site will stand as a source for all things H.E.R, including Shows, interviews, Tour, and Miscellaneous things.",
+        //     image: 'Back_Of_My_Mind_By_H.E.R.png',
+        //     technologies: [
+        //         'Deezer API',
+        //         'HTML/CSS',
+        //         'JavaScript',
+        //         'Express',
+        //         'Node.js'
+        //     ],
+        //     github: 'https://github.com/symlara/HERFan',
+        //     deployedLink: 'https://symlara.github.io/HERFan/'
+        // },
         {
             name: "FutureVU",
             description:  "This project is an ongoing initiative being completed by Vanderbilt University. There are multiple stakeholders involved in the building/look, and feel of this project one of them primarily being the Digital Stragies team I am a part of. I along with my teammates have built out almost all of the pages you see on the sites currently made public in the new look and feel of the Vanderbilt web presense. This project has allowed me to grow in the field of web content management, as well as get stronger in understanding the strategical side of content and where it fits on a page/site.",

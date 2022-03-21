@@ -4,7 +4,7 @@ import futurevu from '../../assets/images/vanderbilt-homepage.png';
 import alien from "../../assets/images/lifeform_background.jpg";
 import notes from "../../assets/images/note-taker.png";
 import password from "../../assets/images/password-generator.png";
-import her from '../../assets/images/Back_Of_My_Mind_By_H.E.R.png';
+// import her from '../../assets/images/Back_Of_My_Mind_By_H.E.R.png';
 import 'tachyons';
 
 
@@ -41,7 +41,7 @@ function Project(props) {
 
                 {/* H.E.R project */}
 
-                <div class="pa3 pa5-ns" id="her">
+                {/* <div class="pa3 pa5-ns" id="her">
                     <h1>H.E.R FanPage</h1>
                         <p id="overflow">Fan Site created for multi-grammy winner H.E.R. This site will stand as a source for all things H.E.R, including Shows, interviews, Tour, and Miscellaneous things.</p>
                         <img src={her} className="her center-3" alt="h.e.r" />
@@ -62,7 +62,8 @@ function Project(props) {
                             <br></br>
                                 <a href="https://symlara.github.io/hersite/" target="_blank" rel="noopener noreferrer">H.E.R FanSite</a>
                         </p>
-                </div>
+                </div> */}
+
            {/* FutureVU project */}
 
            <div class="pa3 pa5-ns" id="futurevu">
