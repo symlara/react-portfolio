@@ -12,7 +12,7 @@ import Footer from "./components/Footer";
 
 
 function App() {
-  const [currentTab, setCurrentTab] = useState("about");
+  const [currentTab, setCurrentTab] = useState("/");
   
   const renderTab = () => {
   
