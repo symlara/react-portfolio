@@ -49,9 +49,19 @@ code {
 }
 
 #header {
-  text-decoration: none;
+  text-align:center;
+  top: 0;
   color: #ffffff;
   font-size:45px;
+}
+#header a{
+  color: #ffffff;
+  text-decoration: none;
+  font-family: league-gothic;
+  background-color: #000;
+  border: none;
+  cursor: pointer;
+  font-size: 45px;
 }
 
 .tc {
@@ -93,7 +103,7 @@ code {
 
 .navActive {
   color: #ffffff;
-  cursor: pointer;
+  text-decoration: none;
 }
 
 
@@ -103,6 +113,7 @@ ul {
 
 #nav li {
   cursor: pointer;
+  
 }
 
 

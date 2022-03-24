@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { Component } from 'react';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './index.css';
 import Header from "./components/Header";
 import About from './components/About';
@@ -11,47 +12,57 @@ import Footer from "./components/Footer";
 
 
 
-function App() {
-  const [currentTab, setCurrentTab] = useState("/");
+class App extends Component {
+  // const [currentTab, setCurrentTab] = useState("#");
   
-  const renderTab = () => {
+  // const renderTab = () => {
   
-    switch (currentTab) {
-      // be sure to capitalize strings
-        case "about":
-          return <About />;
-          case "portfolio":
-            return <Portfolio />;
-            case "contact":
-              return <Contact />;
-              case "resume":
-                return <Resume />;
-          default:
-            return null;
-    }
-  };
-
+  //   switch (currentTab) {
+  //     // be sure to capitalize strings
+  //       case "about":
+  //         return <About />;
+  //         case "portfolio":
+  //           return <Portfolio />;
+  //           case "contact":
+  //             return <Contact />;
+  //             case "resume":
+  //               return <Resume />;
+  //         default:
+  //           return null;
+  //   }
+  // };
+render () {
   return (
+    <Router>
     <div>
       <div>
-      <Header currentTab={currentTab} setCurrentTab={setCurrentTab}></Header>
+        <Header />
+      {/* <Header currentTab={currentTab} setCurrentTab={setCurrentTab}></Header> */}
       </div>
      
       
       <div>
       <main>
-      {renderTab()}
+        <Route exact path="/about" component={About} />
+        <Route exact path="/portfolio" component={Portfolio} />
+        <Route exact path="/contact" component={Contact} />
+        <Route exact path="/resume" component={Resume} />
+
+      {/* {renderTab()} */}
         </main>
       </div>
   
       <div>
-        { <Footer></Footer> }
+        <Footer />
+        {/* { <Footer></Footer> } */}
       </div>
   
   
     </div>
-    );
-  }
+    </Router>
+    )
+  };
+}
   
 
 export default App;

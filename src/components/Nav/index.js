@@ -1,33 +1,35 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../../../src/index.css'
 import 'tachyons';
 
 function Nav (props) {
-    const { currentTab, setCurrentTab } = props;
+    // const { currentTab, setCurrentTab } = props;
     
 
     return (
-
+    <div>
         <nav>
     <ul className="flex-row" id="nav">
-        <li className={currentTab === "about" ? "mx-2 navActive" : "mx-2"}>
-        <span onClick={() => setCurrentTab("about")}>About Me</span>
+        <li>
+            <Link className="navActive mx-2" to="/about">About</Link>
         </li>
         
-        <li className={currentTab === "portfolio" ? "mx-2 navActive" : "mx-2"}>
-            <span onClick={() => setCurrentTab("portfolio")}>Portfolio</span>
+        <li>
+            <Link className="navActive mx-2" to="/portfolio">Portfolio</Link>
         </li>
 
-        <li className={currentTab === "contact" ? "mx-2 navActive" : "mx-2"}>
-            <span onClick={() => setCurrentTab("contact")}>Contact</span>
+        <li>
+            <Link className="navActive mx-2" to="/contact">Contact</Link>
         </li>
 
-        <li className={currentTab === "resume" ? "mx-2 navActive" : "mx-2"}>
-            <span onClick={() => setCurrentTab("resume")}>Resume</span>
+        <li>
+            <Link className="navActive mx-2" to="/resume">Resume</Link>
         </li>
     </ul>
-</nav>
+        </nav>
       
+    </div>
     );
 }
 
