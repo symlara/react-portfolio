@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.f9cbe316.css",
-    "main.js": "/react-portfolio/static/js/main.938c5bd8.js",
+    "main.js": "/react-portfolio/static/js/main.c3be075b.js",
     "static/js/787.7efd31bd.chunk.js": "/react-portfolio/static/js/787.7efd31bd.chunk.js",
     "static/media/vanderbilt-homepage.png": "/react-portfolio/static/media/vanderbilt-homepage.64809d9472a0fbcd829d.png",
     "static/media/lifeform_background.jpg": "/react-portfolio/static/media/lifeform_background.e4ec5225e261cdc2b917.jpg",
@@ -12,11 +12,11 @@
     "static/media/Aaliyah Symlar-Resume-2022.docx": "/react-portfolio/static/media/Aaliyah Symlar-Resume-2022.2189c94a97bec8a4844b.docx",
     "index.html": "/react-portfolio/index.html",
     "main.f9cbe316.css.map": "/react-portfolio/static/css/main.f9cbe316.css.map",
-    "main.938c5bd8.js.map": "/react-portfolio/static/js/main.938c5bd8.js.map",
+    "main.c3be075b.js.map": "/react-portfolio/static/js/main.c3be075b.js.map",
     "787.7efd31bd.chunk.js.map": "/react-portfolio/static/js/787.7efd31bd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f9cbe316.css",
-    "static/js/main.938c5bd8.js"
+    "static/js/main.c3be075b.js"
   ]
 }
