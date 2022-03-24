@@ -31,13 +31,13 @@ code {
   bottom: 10px;
   right: 30px;
   z-index: 99;
-  font-size: 30px;
+  font-size: 25px;
   border: none;
   outline: none;
   background-color: #000;
   color: white;
   cursor: pointer;
-  padding: 10px;
+  padding: 5px;
   border-radius: 4px;
 }
 
@@ -387,6 +387,10 @@ p {
 
   /* allen project */
 
+  .allen-stone {
+    height: auto;
+  }
+
   #allen h1 {
     font-size: 30px;
     text-align:center;
@@ -420,7 +424,7 @@ p {
 
   /*h.e.r project */
 
-  #her h1 {
+  /* #her h1 {
     font-size: 30px;
     text-align:center;
   }
@@ -449,9 +453,13 @@ p {
   #her a {
     font-size: 15px;
     text-align: center;
-  }
+  } */
 
   /* futurevu project */
+
+  .futurevu {
+    height: auto;
+  }
 
   #futurevu h1 {
     font-size: 30px;
@@ -481,6 +489,10 @@ p {
 
 
   /* alien project */
+
+  .alien{
+    height:auto;
+  }
 
   #alien h1 {
     font-size: 30px;
@@ -516,6 +528,10 @@ p {
 
   /* note-taker project */
 
+  .notes {
+    height: auto;
+  }
+
   #note-taker h1 {
     font-size: 30px;
     text-align:center;
@@ -548,6 +564,10 @@ p {
 
   /* password-generator project */
 
+  .password {
+    height: auto;
+  }
+
   #password-generator h1 {
     font-size: 30px;
     text-align: center;
@@ -579,8 +599,8 @@ p {
     text-align: center;
   }
 
-  #new-projects h1 {
-    font-size: 30px;
+  .new-projects {
+    font-size: 20px;
     text-align: center;
   }
 

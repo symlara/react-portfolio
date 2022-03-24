@@ -152,7 +152,7 @@ function Project(props) {
                     </p>
                 </div>
 
-                <h1 class="tc f5 ttu fw6 tracked mb4" id="new-projects">New Projects Coming Soon! Stay tuned!</h1>
+                <h1 class="tc f5 ttu fw6 tracked mb4 new-projects">New Projects Coming Soon! Stay tuned!</h1>
             </div>
 
         </div>
