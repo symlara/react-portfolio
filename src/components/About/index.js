@@ -1,6 +1,6 @@
 import React from 'react';
 import headshot from '../../assets/images/Symlar_Aaliyah002.JPG';
-import resume from '../../assets/files/Aaliyah Symlar.pdf';
+import resume from '../../assets/files/Aaliyah Symlar_Resume .pdf';
 import '../../../src/index.css'
 import 'tachyons';
 
