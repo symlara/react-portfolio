@@ -47,8 +47,10 @@ function Portfolio() {
                 'JavaScript'
             ],
             live_site: 'https://www.vanderbilt.edu/',
-            admissions_site: 'https://admissions.vanderbilt.edu/'
+            brand_site: 'https://brand.vanderbilt.edu/',
+            admissions_site: 'https://admissions.vanderbilt.edu/',
         },
+
         {
             name: 'Alien Generator',
             description: "This app was created to help to inspire game masters, artists, and players in the endeavor of character creation and design. Each lifeform will be generated with a random backstory, physical description, and list of abilities!",

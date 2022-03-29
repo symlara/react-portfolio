@@ -267,6 +267,12 @@ ul {
   font-size: 18px;
 }
 
+.brandsite {
+  height: 350px;
+}
+
+
+
 /* alien project */
 .alien {
   height: 350px;
@@ -496,6 +502,18 @@ p {
 
   #futurevu li {
     font-size: 15px;
+  }
+
+  .brandsite {
+    height: auto;
+    padding: 2px;
+  }
+
+  .center-9 {
+    display: block;
+    width: 100%;
+    margin-left: 1px;
+    margin-right: 1px;
   }
 
 

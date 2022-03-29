@@ -1,6 +1,7 @@
 import React from 'react';
 import allen from "../../assets/images/allenstone.jpg";
 import futurevu from '../../assets/images/vanderbilt-homepage.png';
+import brandsite from '../../assets/images/brand-site.png';
 import alien from "../../assets/images/lifeform_background.jpg";
 import notes from "../../assets/images/note-taker.png";
 import password from "../../assets/images/password-generator.png";
@@ -20,7 +21,7 @@ function Project(props) {
 
                     <h1>About Allen Stone</h1>
                         <p id="overflow">This app is a quick source to all things Allen Stone, who is a Pop/Soul Musician. It's a source for Al's music, and links to his social media accounts! </p>
-                        <img src={allen} className="allen-stone center-2" alt="allen-stone" />
+                        <img src={allen} className="allen-stone center-2" alt="allen-stone" loading="lazy" />
                         <h3>Technologies:</h3>
                         <ul>
                         <li>Deezer API</li>
@@ -69,7 +70,7 @@ function Project(props) {
            <div class="pa3 pa5-ns" id="futurevu">
                <h1>FutureVU</h1>
                <p>This project is an ongoing initiative being completed by Vanderbilt University. There are multiple stakeholders involved in the building/look, and feel of this project one of them primarily being the Digital Stragies team I am a part of. I along with my teammates have built out almost all of the pages you see on the sites currently made public in the new look and feel of the Vanderbilt web presense. This project has allowed me to grow in the field of web content management, as well as get stronger in understanding the strategical side of content and where it fits on a page/site.</p>
-               <img src={futurevu} className="futurevu center-8" alt="future-vu" />
+               <img src={futurevu} className="futurevu center-8" alt="future-vu" loading="lazy" />
                <h3>Technologies</h3>
                <ul>
                    <li>HTML/CSS</li>
@@ -85,6 +86,11 @@ function Project(props) {
                    <br></br>
                    <a href="https://admissions.vanderbilt.edu/" target="_blank" rel="noopener noreferrer">Vanderbilt Admissions</a>
                </p>
+
+               <img src={brandsite} className="brandsite center-9" alt="brand-site" loading="lazy"/>
+                <p>
+                   <a href="https://brand.vanderbilt.edu/" target="_blank" rel="noopener noreferrer">Vanderbilt Brand Site</a>
+               </p>
            </div>
 
                 {/* Alien generator project */}
@@ -92,7 +98,7 @@ function Project(props) {
             <div class="pa3 pa5-ns" id="alien">
                 <h1>Alien Generator</h1>
                 <p>This app was created to help to inspire game masters, artists, and players in the endeavor of character creation and design. Each lifeform will be generated with a random backstory, physical description, and list of abilities!</p>
-                <img src={alien} className="alien center-4" alt="alien-generator" />
+                <img src={alien} className="alien center-4" alt="alien-generator" loading="lazy" />
                 <h3>Technologies:</h3>
                 <ul>
                     <li>HTML/CSS</li>
@@ -117,7 +123,7 @@ function Project(props) {
                 <div class="pa3 pa5-ns" id="note-taker">
                     <h1>Note Taker</h1>
                     <p>This application is used to generate notes.</p>
-                    <img src={notes} className="notes center-6" alt="note-taker" />
+                    <img src={notes} className="notes center-6" alt="note-taker" loading="lazy" />
                     <h3>Technologies:</h3>
                     <ul>
                     <li>Express.js</li>
@@ -137,7 +143,7 @@ function Project(props) {
                 <div class="pa3 pa5-ns" id="password-generator">
                     <h1>Password Generator</h1>
                     <p>This application is used to generate a random password using JavaScript</p>
-                    <img src={password} className="password center-7" alt="password-generator app" />
+                    <img src={password} className="password center-7" alt="password-generator app" loading="lazy" />
                     <h3>Technologies:</h3>
                     <ul>
                     <li>JavaScript</li>

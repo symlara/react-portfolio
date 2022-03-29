@@ -13,7 +13,7 @@ function Resume() {
                          <div class="fl w-100 w-50-m w-25-l pa3-m pa4-l">
                              <h2>Front-End Proficiencies</h2>
                                 <p class="f6 lh-copy measure">
-                                  HTML, CSS, JavaScript, jQuery, Bootstrap, React, Git, Responsive UI, Canva
+                                  HTML, CSS, JavaScript, jQuery, Bootstrap, React Native, Git, Responsive UI, Canva
                               </p>
                         </div>
                 <div class="fl w-100 w-50-m w-25-l pa3-m pa4-l">
