@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.00ea5114.css",
-    "main.js": "/react-portfolio/static/js/main.6f6efec9.js",
+    "main.css": "/react-portfolio/static/css/main.7f589aba.css",
+    "main.js": "/react-portfolio/static/js/main.7dbf1ec4.js",
     "static/js/787.7efd31bd.chunk.js": "/react-portfolio/static/js/787.7efd31bd.chunk.js",
     "static/media/vanderbilt-homepage.png": "/react-portfolio/static/media/vanderbilt-homepage.64809d9472a0fbcd829d.png",
     "static/media/lifeform_background.jpg": "/react-portfolio/static/media/lifeform_background.e4ec5225e261cdc2b917.jpg",
+    "static/media/brand-site.png": "/react-portfolio/static/media/brand-site.9b99375ee52ee9dd0e09.png",
     "static/media/password-generator.png": "/react-portfolio/static/media/password-generator.881bbe2b61f07b291923.png",
     "static/media/Symlar_Aaliyah002.JPG": "/react-portfolio/static/media/Symlar_Aaliyah002.960269cdd59bee3a6eed.JPG",
     "static/media/note-taker.png": "/react-portfolio/static/media/note-taker.c03fcb45ca052735b327.png",
     "static/media/allenstone.jpg": "/react-portfolio/static/media/allenstone.29237ddd9c9a20537e83.jpg",
-    "static/media/Aaliyah Symlar-Resume-2022.docx": "/react-portfolio/static/media/Aaliyah Symlar-Resume-2022.2189c94a97bec8a4844b.docx",
+    "static/media/Aaliyah Symlar.pdf": "/react-portfolio/static/media/Aaliyah Symlar.6da60bd7e680f2fe1c3e.pdf",
     "index.html": "/react-portfolio/index.html",
-    "main.00ea5114.css.map": "/react-portfolio/static/css/main.00ea5114.css.map",
-    "main.6f6efec9.js.map": "/react-portfolio/static/js/main.6f6efec9.js.map",
+    "main.7f589aba.css.map": "/react-portfolio/static/css/main.7f589aba.css.map",
+    "main.7dbf1ec4.js.map": "/react-portfolio/static/js/main.7dbf1ec4.js.map",
     "787.7efd31bd.chunk.js.map": "/react-portfolio/static/js/787.7efd31bd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.00ea5114.css",
-    "static/js/main.6f6efec9.js"
+    "static/css/main.7f589aba.css",
+    "static/js/main.7dbf1ec4.js"
   ]
 }
